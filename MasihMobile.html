@@ -2,13 +2,7 @@
 <head>
     <link href="mobile.css" rel="stylesheet">
 
-    <script>
-        window.onscroll = function() {
-            var item = document.getElementById('s1d1back');
-            aval = window.scrollY + 'px' ;
-            item.style.bottom = aval ;
-          };
-    </script>
+
 
 
 </head>
@@ -19,9 +13,18 @@
 <div id="curved-corner-bottomright"></div>
 
 </div>
+<script>
 
-
-
+    window.addEventListener("scroll", function() {
+        var item = document.getElementById("s1d1back");
+        var item2 = document.getElementById("curved-corner-bottomright");
+        var scrollPosition = -window.scrollY;
+    
+        // Update the item's position based on scroll
+        item.style.transform = "translateY(" + scrollPosition + "px)";
+        item2.style.transform = "translateY(" + scrollPosition + "px)";
+    });
+</script>
 
 
 </body>
