@@ -10,19 +10,32 @@
 <img id="s1p1" src="S1P1.jpg">
 <div id="s1d1k1">
 <div id="s1d1back"></div>
-<div id="curved-corner-bottomright"></div>
-
-</div>
+<div id="curved-corner-bottomright"></div></div>
+<div id="s2d1back"></div>
 <script>
 
     window.addEventListener("scroll", function() {
         var item = document.getElementById("s1d1back");
         var item2 = document.getElementById("curved-corner-bottomright");
+        var item3 = document.getElementById("s2d1back");
         var scrollPosition = -window.scrollY;
-    
-        // Update the item's position based on scroll
+        var i2item = document.getElementById("s1d1back");
+        var rect = i2item.getBoundingClientRect();
+        if(rect.bottom >= 140){
         item.style.transform = "translateY(" + scrollPosition + "px)";
         item2.style.transform = "translateY(" + scrollPosition + "px)";
+        item3.style.transform = "translateY(" + scrollPosition + "px)";}
+        else{
+
+        
+
+        }
+        // Update the item's position based on scroll
+        
+
+
+        
+
     });
 </script>
 
