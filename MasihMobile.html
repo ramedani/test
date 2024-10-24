@@ -10,25 +10,42 @@
 <img id="s1p1" src="S1P1.jpg">
 <div id="s1d1k1">
 <div id="s1d1back"></div>
-<div id="curved-corner-bottomright"></div></div>
+<div id="curved-corner-bottomright"></div><div id="curved-corner-topleft2"></div></div>
+<div id="notstop"></div>
 <div id="s2d1back"></div>
+
+<div id="navarbala2"></div>
+<div id="curved-corner-topleft"></div>
 <script>
 
     window.addEventListener("scroll", function() {
         var item = document.getElementById("s1d1back");
         var item2 = document.getElementById("curved-corner-bottomright");
+        var item25 = document.getElementById("curved-corner-topleft2");
         var item3 = document.getElementById("s2d1back");
+        var notstop = document.getElementById("notstop");
         var scrollPosition = -window.scrollY;
         var i2item = document.getElementById("s1d1back");
-        var rect = i2item.getBoundingClientRect();
-        if(rect.bottom >= 140){
+        var rect = item.getBoundingClientRect();
+        var notrect = notstop.getBoundingClientRect();
+        var rect2 = item2.getBoundingClientRect();
+        var rect25 = item25.getBoundingClientRect();
+        var rect3 = item3.getBoundingClientRect();
+        var navarbala = document.getElementById("navarbala2");
+        var navarbala2 = document.getElementById("curved-corner-topleft");
+        if(rect.top > 0,rect3.top > 0,rect2.top > 0){
         item.style.transform = "translateY(" + scrollPosition + "px)";
         item2.style.transform = "translateY(" + scrollPosition + "px)";
+        item25.style.transform = "translateY(" + scrollPosition + "px)";
         item3.style.transform = "translateY(" + scrollPosition + "px)";}
-        else{
 
-        
+        else if(notrect.top <= 0){
+        item.style.display='none'
+        item2.style.display='none'
 
+        navarbala.style.display='block'
+        navarbala2.style.display='block'
+    }
         }
         // Update the item's position based on scroll
         
@@ -36,7 +53,7 @@
 
         
 
-    });
+    );
 </script>
 
 
