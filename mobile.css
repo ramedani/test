@@ -7,10 +7,10 @@
     width: 100%;height: 100vh; 
     z-index: 2;
 }
-#notstop{width: 10vh;height: 10%;z-index: 3;position: relative;bottom: 47vh;}
+#notstop{width: 10vh;height: 0.5%;z-index: 3;position: relative;bottom: 63vh;background-color: blue;}
 #s1d1back{
   position: sticky;
-    width: 100%;height: 30vh;background-color: gray;z-index: 1;position: relative;bottom: 15vh;border-top-left-radius: 8vh;border-bottom-right-radius: 8vh
+    width: 100%;height: 25vh;background-color: gray;z-index: 1;position: relative;bottom: 15vh;border-top-left-radius: 8vh;border-bottom-right-radius: 8vh;
     
 }
 #curved-corner-bottomright{
@@ -34,7 +34,7 @@
     width: 100px;
     height: 100px;
     overflow: hidden;
-    ;z-index: 2;position: absolute;left: 0px;top: 115vh;
+    ;z-index: 2;position: absolute;left: 0px;top: 110vh;
   }
   
   #curved-corner-topleft2:before{
@@ -82,7 +82,7 @@ animation-name: navarbala;
   animation-name: navarbala2;
   animation-duration: 1.5s;
   animation-iteration-count: 1;
-      animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
   animation-delay:0s;
 }
 
