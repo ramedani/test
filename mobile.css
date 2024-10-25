@@ -7,7 +7,7 @@
     width: 100%;height: 100vh; 
     z-index: 2;
 }
-#notstop{width: 10vh;height: 0.5%;z-index: 3;position: relative;bottom: 63vh;background-color: blue;}
+#notstop{width: 10vh;height: 0.5%;z-index: 3;position: relative;bottom: 63vh;}
 #s1d1back{
   position: sticky;
     width: 100%;height: 25vh;background-color: gray;z-index: 1;position: relative;bottom: 15vh;border-top-left-radius: 8vh;border-bottom-right-radius: 8vh;
@@ -52,7 +52,7 @@
     box-shadow: -50px -50px 0 0 gray;
   }
 #s2d1back{
-  width: 100%;height: 100vh;background-color: white;position: relative;bottom: 31vh;
+  width: 100%;height: 200vh;background-color: white;position: relative;bottom: 31vh;
 }
 @keyframes navarbala
 {
