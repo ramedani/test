@@ -10,7 +10,7 @@
 #notstop{width: 10vh;height: 0.5%;z-index: 3;position: relative;bottom: 63vh;}
 #s1d1back{
   position: sticky;
-    width: 100%;height: 25vh;background-color: gray;z-index: 1;position: relative;bottom: 15vh;border-top-left-radius: 8vh;border-bottom-right-radius: 8vh;
+  width: 100%;height: 25vh;background-color: gray;z-index: 1;position: relative;bottom: 15vh;border-top-left-radius: 8vh;border-bottom-right-radius: 8vh;
     
 }
 #curved-corner-bottomright{
@@ -99,4 +99,10 @@ animation-name: navarbalaa;
   top: 0;
   left: 0;
   box-shadow: -50px -50px 0 0 gray;
+}
+#navbar{
+  z-index: 2;position: fixed;top: 4vh;font-size: 500%;right: 10%;display: none;
+}
+#zarbala{
+  z-index: 2;position: fixed;top: 4vh;font-size: 450%;left: 10%;display: none;
 }
