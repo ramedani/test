@@ -106,6 +106,18 @@ animation-name: navarbalaa;
 #zarbala{
   z-index: 2;position: fixed;top: 4vh;font-size: 450%;left: 10%;display: none;
 }
+#language{
+  z-index: 2;color: red;font-size: 60;position: fixed;top: 5vh;right: 25%;display: none;
+
+}
 #circle1{z-index: 1;position: absolute;top: 25vh;font-size: 350%;display: none;right: 10%;}
 #circle2{z-index: 1;position: absolute;top: 35vh;font-size: 350%;display: none;right: 10%;}
 #circle3{z-index: 1;position: absolute;top: 45vh;font-size: 350%;display: none;right: 10%;}
+
+.oval {
+  width: 300px;
+  height: 400px;
+  background: black;
+  border-radius: 100% / 120% 120% 75% 75%;
+}
+#godal1{width: 100%;z-index: 1;bottom:  140vh;position: relative;}
