@@ -111,8 +111,14 @@ animation-name: navarbalaa;
 
 }
 #circle1{z-index: 1;position: absolute;top: 25vh;font-size: 350%;display: none;right: 10%;}
-#circle2{z-index: 1;position: absolute;top: 35vh;font-size: 350%;display: none;right: 10%;}
-#circle3{z-index: 1;position: absolute;top: 45vh;font-size: 350%;display: none;right: 10%;}
+#circle2{z-index: 1;position: absolute;top: 35vh;font-size: 350%;display: none;right: 7%;}
+#circle3{z-index: 1;position: absolute;top: 45vh;font-size: 350%;display: none;right: 5%;}
+
+#godal1{width: 100%;z-index: 1;bottom:  145vh;position: relative;}
+#whatmicro{
+  font-size: 70;position: relative;z-index: 1;bottom: 120vh;right: 5%;
+}
+#jwhatmicro{font-size: 55;position: relative;z-index: 1;bottom: 115vh;right: 5%;}
 
 .oval {
   width: 300px;
@@ -120,4 +126,4 @@ animation-name: navarbalaa;
   background: black;
   border-radius: 100% / 120% 120% 75% 75%;
 }
-#godal1{width: 100%;z-index: 1;bottom:  145vh;position: relative;}
+body{background-color: rgb(245, 242, 235)}
