@@ -1,0 +1,46 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+.balabck{width: 100%;height: 50vh;}
+.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 150vh;}
+.logo{z-index: 1;top: 1vh;position: absolute;width: 25%;left: 35%;}
+.l23calp{z-index: 1;position: absolute;top: 16.8vh;left: 9%;;width: 4.8vh;touch-action:none;}
+.iconbala{color: #bdb94f;z-index:3;font-size: 3.5vh;position: absolute;top: 18vh;}
+.pbala{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;}
+.peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 3vh;right: 2vh}
+pmss{font-size: 3vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 18.2vh;left: 26%;}
+.pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 13.5vh;left:55%}
+.pbalazi{font-size: 1.5vh;color: white;z-index: 2;position: absolute;top: 23vh;}
+.pms{left:6%}
+.pmat{left:33%}
+.pabout{left:56%}
+.pcont{left:78%}
+.morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 27vh;}
+.morab1{top: 16vh;right: 4%;height: 0.8vh;width: 0.8vh;background-color: rgb(189, 185, 97);}
+.morab2{top: 16vh;left: 4%;height: 0.8vh;width: 0.8vh;background-color: rgb(189, 185, 97);}
+.morab31{left: 11.5%;}
+.morab32{left: 36.5%;}
+.morab33{left: 62%;}
+.morab34{left: 85%;}
+.morabj{border-radius: 50%;background-color: rgb(189, 185, 97);width: 1vh;height: 1vh;}
+.acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
+.acshead{width: 100%;;z-index: 2;position: absolute;top: 31vh;}
+.butmor{width: 60%;height: 7.5vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 63vh;z-index: 3;left: 20%;border-radius: 2%;}
+.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 2.35vh;left: 32%;}
+.padresen{z-index: 2;color: white;font-size: 1.8vh;position: absolute;top: 76vh;left: 28%;}
+.pnumber{z-index: 2;color: white;font-size: 1.6vh;position: absolute;top: 82vh;left: 38%;}
+
+.circle11{
+    width: 6.35vh;
+    height: 6.35vh;
+    border-radius: 50%; /* This will create a circle */
+    border: 0.38vh solid rgb(189, 185, 97);
+    z-index: 2;top: 24vh;position: absolute;left: 9%;
+    animation-name: circle1;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    transform: rotate(180deg);
+    animation-delay:0s;
+}
+.a{clip-path: polygon(100% 0, 100% 100%, 50% 50%, 0 0);
+    clip-path: polygon(50% 0%, 50% 100%, 0% 100%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 50%);
+    animation-timing-function: ease-out;}
