@@ -1,6 +1,6 @@
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 .balabck{width: 100%;height: 50vh;}
-.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 107vh;}
+.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 102vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 25%;left: 35%;}
 .l23calp{z-index: 1;position: absolute;top: 16.8vh;left: 9%;;width: 4.8vh;touch-action:none;}
 .iconbala{color: #bdb94f;z-index:3;font-size: 3.5vh;position: absolute;top: 18vh;}
@@ -32,10 +32,12 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
 .insta1{left: 46%;}
 .face1{left: 62%;}
 .charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
-.pass2{background-color: #ffffff;width: 100%;height: 150vh;z-index:3;position: absolute;top: 107vh;}
+.pass2{background-color: #ffffff;width: 100%;height: 150vh;z-index:3;position: absolute;top: 112vh;}
 shadowzirhead{width: 100%;position: absolute;top: 98vh;z-index: 2;height: 10vh;}
-.kaligraphy{position: absolute;top: 95vh;width: 100%;}
+kaligraphy{position: absolute;top: 95vh;width: 100%;}
 rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
+.kaghaz{position: absolute;top: 90vh;width: 100%;z-index: 4;}
+.MICROSCALP2{position: absolute;top: 110vh;font-size: 3.5em;z-index: 3;font-weight: bolder;}
 .circle11{
     width: 6.35vh;
     height: 6.35vh;
