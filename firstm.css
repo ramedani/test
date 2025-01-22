@@ -36,31 +36,37 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
 .insta1{left: 46%;}
 .face1{left: 62%;}
 .charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
-.pass2{background-color: #ffffff;width: 100%;height: 150vh;z-index:1;position: absolute;top: 90vh;}
+.pass2{background-color: #ffffff;width: 100%;height: 150vh;z-index:1;position: absolute;top: 86vh;}
 shadowzirhead{width: 100%;position: absolute;top: 98vh;z-index: 2;height: 10vh;}
 kaligraphy{position: absolute;top: 95vh;width: 100%;}
 rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
 .kaghaz{position: absolute;top: 90vh;width: 100%;z-index: 5;}
-.aab{position: absolute;top: 89vh;width: 100%;z-index: 2;}
-.MICROSCALP2{position: absolute;top: 110vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 30%;
-    font-family: servic;
+.aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
+.MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
 
-
+.dast{position: absolute;top: 117.5vh;z-index: 2;left:74%;width: 12%;height: auto;transform: rotate(10deg);}
+.circle001{
+    width: 7.5vh;
+    height: 7.5vh;
+    border: 0.25vh solid rgb(189, 185, 97);
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;top: 117vh;left:71%;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 50% 14%, 0% 100%, 0 0);
+    transform: rotate(90deg);
+}
+.circle010{
+    width: 9vh;
+    height: 9vh;
+    border: 0.25vh solid rgb(189, 185, 97);
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;top: 116.25vh;left:69.3%;
 }
 
-.circle11{
-    width: 6.35vh;
-    height: 6.35vh;
-    border-radius: 50%; /* This will create a circle */
-    border: 0.38vh solid rgb(189, 185, 97);
-    z-index: 2;top: 24vh;position: absolute;left: 9%;
-    animation-name: circle1;
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    transform: rotate(180deg);
-    animation-delay:0s;
-}
-.a{clip-path: polygon(100% 0, 100% 100%, 50% 50%, 0 0);
-    clip-path: polygon(50% 0%, 50% 100%, 0% 100%);
-    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 50% 100%, 0 50%);
-    animation-timing-function: ease-out;}
+.khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130.3vh;left: 55%;}
+.star{z-index: 2;position: absolute;top: 129.5vh;font-size: 2vh;}
+.whatmicro{position: absolute;font-size: 2.9em;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 129vh;left: 6%;}
+
