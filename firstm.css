@@ -82,11 +82,16 @@ rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
 .repeatq4{top: 192vh;}
 .javab4repeat{top: 197vh;}
 
-.pass31{background-color: rgb(35, 31, 32);width: 71%;height: 100vh;position: absolute;top: 221vh;left: 14.5%;}
-.pass32{width: 100%;height: 100vh;left: 0;top: 228vh;}
+.pass31{background-color: rgb(35, 31, 32);width: 73%;height: 150vh;position: absolute;top: 221vh;left: 13.5%;}
+.pass32{width: 100%;height: 150vh;left: 0;top: 228vh;}
 .tarhbalamaterial{position: absolute;top: 214.6vh;z-index: 2;width: 32%;height: auto;left: 34%;}
 .khatsorkh{z-index: 1;width: 17%;position: absolute;left: 26%;top: 230vh;}
 .khatsorkh2{left: 58.5%;transform: rotate(180deg);}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
 .khatsefiidmate{width: 0.4%;height: 10vh;position:absolute;top: 236vh;left: 49.8%;z-index: 1;background-color: #ffffff;border-radius: 25%;}
 .MATERIAL{top: 238vh;left: 33%;color: rgb(255, 255, 255);}
+.rangpeak{z-index: 1;position: absolute;top: 245vh;left: 31%;height: auto;width: 38%;}
+.circlematerialch{z-index: 1;width: 9vh;height: 9vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 285vh;justify-content: center;}
+.feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.5vh;left: 12%;}
+.circlematerialr{right:1%;}
+.feleshmaterialr{left: 12%;transform: rotate(180deg);}
