@@ -90,8 +90,13 @@ rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
 .khatsefiidmate{width: 0.4%;height: 10vh;position:absolute;top: 236vh;left: 49.8%;z-index: 1;background-color: #ffffff;border-radius: 25%;}
 .MATERIAL{top: 238vh;left: 33%;color: rgb(255, 255, 255);}
-.rangpeak{z-index: 1;position: absolute;top: 245vh;left: 31%;height: auto;width: 38%;}
-.circlematerialch{z-index: 1;width: 9vh;height: 9vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 285vh;justify-content: center;}
-.feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.5vh;left: 12%;}
+.rangpeak{z-index: 2;position: absolute;top: 245vh;left: 31%;height: auto;width: 38%;}
+.circlematerialch{z-index: 1;width: 9.5vh;height: 9.5vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 285vh;justify-content: center;}
+.feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.8vh;}
 .circlematerialr{right:1%;}
-.feleshmaterialr{left: 12%;transform: rotate(180deg);}
+.feleshmaterialr{left: 13%;transform: rotate(180deg);}
+.organicmaterial{top: 292vh;left: 27%;color: rgb(255, 255, 255);}
+.organicmaterialcolor{top: 297vh;left: 39%;color: rgb(255, 255, 255);}
+.rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
+.rangpeaknevo{left: 54%;top: 254vh;}
+.tozihrangm{color: rgb(255, 255, 255);top: 305vh;left: 5%;right: 5%;}
