@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" href="firstm.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
 </head>
 <body>
 <div>
@@ -79,15 +80,20 @@
   <h2 class="MICROSCALP2 MATERIAL">MATERIAL</h2>
   <div class="circlematerialch" style="left: 1%;"><img src="feleshmaterial.png" class="feleshmaterialch" style="right: 13%;"></div>
   <div class="circlematerialch circlematerialr"><img src="feleshmaterial.png" class="feleshmaterialch feleshmaterialr"></div>
-  <div>
-    <img src="testrang.png" class="rangpeak">
+  <div id="kolrange">
+    <div >
+    <img src="testrang.png" class="none rangpeak"  id="aksrang1">
+    <img src="testrangghahve.png" class="rangpeak rangpeakghahve" id="aksrang2" style="display: none;">
+    <img src="testrangnevo.png" class="rangpeak rangpeakghahve rangpeaknevo" id="aksrang3" style="display: none;">
+    </div>
     <h2 class="MICROSCALP2 organicmaterial">ORGANIC</h2>
     <h2 class="MICROSCALP2 organicmaterialcolor">COLORS</h2>
-    <img src="testrangghahve.png" class="rangpeak rangpeakghahve">
-    <img src="testrangnevo.png" class="rangpeak rangpeakghahve rangpeaknevo" >
+
     <p class="javab1repeat tozihrangm">Organic dyes such as Gost are derived from plants, are lead-free, contain anti-inflammatory and anti-allergic ingredients, and are compatible with all skin types. If used in the right combination, they prevent color change and fading.</p>
   </div>
-
+  <div class="continer">
+    <img src="soozanmaterial.png" class="soozanpeak" id="soozanpeak">
+  </div>
 </div>
 <script>
     function addTouchClass(x) {
@@ -102,6 +108,38 @@
         else if(x == 3){document.getElementById('morabk3').classList.remove('morabj');}
         else if(x == 4){document.getElementById('morabk4').classList.remove('morabj');}
       }
+const targetElement = document.getElementById('kolrange');
+const aksrang1 = document.getElementById('aksrang1');
+const akssoozan = document.getElementById('soozanpeak');
+let K = 1;
+let initialX = null;
+
+akssoozan.style.visibility = 'hidden';
+
+targetElement.addEventListener('touchstart', (e) => {
+    initialX = e.touches[0].clientX;
+});
+
+targetElement.addEventListener('touchmove', (e) => {
+    if (!initialX) {
+        return;
+    }
+
+    const currentX = e.touches[0].clientX;
+    const diffX = initialX - currentX;
+
+    if (diffX > 0 && K ===1) {
+      aksrang1.classList.add('move-left');
+      setTimeout(function() {
+        aksrang1.style.visibility = 'hidden';
+        akssoozan.style.visibility = 'visible';
+        akssoozan.classList.add('moveleft-left');
+        k++;
+        return k;
+        }, 3000);
+    } 
+});
+
 </script>
 </body>
 </html>
