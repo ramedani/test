@@ -17,16 +17,19 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
 .pmat{left:33%}
 .pabout{left:56%}
 .pcont{left:78%}
-.morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 27vh;}
-.morab1{top: 16vh;right: 4%;height: 0.8vh;width: 0.8vh;background-color: rgb(189, 185, 97);}
-.morab2{top: 16vh;left: 4%;height: 0.8vh;width: 0.8vh;background-color: rgb(189, 185, 97);}
+.morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 27vh;border-radius: 50%}
+.morab1{top: 16vh;right: 4%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
+.morab2{top: 16vh;left: 4%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
 .morab31{left: 11.5%;}
 .morab32{left: 36.5%;}
 .morab33{left: 62%;}
-.morab34{left: 85%;}
+.morab34{left: 85%;;}
 .morabj{border-radius: 50%;background-color: rgb(189, 185, 97);width: 1vh;height: 1vh;}
 .acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
 .acshead{width: 100%;;z-index: 2;position: absolute;top: 31vh;}
+kahtshadow{        width: 50%;
+    height: 2vh; /* Set height for the line */
+    background: linear-gradient(to right, rgb(153, 25, 25) 20%, transparent 80%);}
 .butmor{width: 60%;height: 7.5vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 63vh;z-index: 3;left: 20%;border-radius: 2%;}
 .psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 2.35vh;left: 32%;}
 .padresen{z-index: 2;color: white;font-size: 2.2vh;position: absolute;top: 76vh;left: 24%;}
@@ -101,8 +104,24 @@ rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
 .rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
 .rangpeaknevo{left: 50%;top: 254vh;}
 .tozihrangm{color: rgb(255, 255, 255);top: 308vh;left: 8%;right: 8%;}
-soozanpeak{z-index: 2;position: absolute;top: 245vh;left: 26%;height: auto;width: 48%;}
 .soozanpeak{z-index: 2;position: absolute;top: 245vh;left: 26%;height: auto;width: 48%;}
+.butmor2{top: 325vh;}
+.morabmaterial1{top: 342vh;width: 0.7vh;left: 30%;height: 0.7vh;}
+.morabmaterial2{top: 342vh;width: 0.7vh;left: 50%;height: 0.7vh;}
+.morabmaterial3{top: 342vh;width: 0.7vh;left: 70%;height: 0.7vh;}
+.aksinstamaterial{z-index:1;width:13.5%;height: auto;position: absolute;top: 352vh;left: 43.25%;}
+.khatarminsta{width: 38%;height: 0.3vh;z-index: 12;position: absolute;top: 353.2vh;background-color: rgb(97, 94, 51);left: 2.5%;}
+.khatarminsta2{left: 59.5%;}
+
+
+
+
+
+
+
+
+
+
 
 .moveleft-left{
     overflow-x: hidden;
