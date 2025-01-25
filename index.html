@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
 </head>
-<body>
+<body id="body">
 <div>
 
     <div id="head">
@@ -108,6 +108,7 @@
         else if(x == 3){document.getElementById('morabk3').classList.remove('morabj');}
         else if(x == 4){document.getElementById('morabk4').classList.remove('morabj');}
       }
+const body = document.getElementById('body'); 
 const targetElement = document.getElementById('kolrange');
 const aksrang1 = document.getElementById('aksrang1');
 const akssoozan = document.getElementById('soozanpeak');
@@ -130,13 +131,16 @@ targetElement.addEventListener('touchmove', (e) => {
 
     if (diffX > 0 && K ===1) {
       aksrang1.classList.add('move-left');
+
       setTimeout(function() {
         aksrang1.style.visibility = 'hidden';
         akssoozan.style.visibility = 'visible';
         akssoozan.classList.add('moveleft-left');
+
+
         k++;
         return k;
-        }, 3000);
+        }, 400);
     } 
 });
 
