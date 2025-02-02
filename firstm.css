@@ -8,6 +8,9 @@
     src: url(Swiss721BoldBT.ttf);
 }
 p{font-family: icon;}
+.logo{z-index: 1;top: 1vh;position: absolute;width: 3%;left: 38.5%;}
+
+@media screen and (max-width: 766px){
 .balabck{width: 100%;height: 50vh;}
 .pass1{background-color: rgb(35, 31, 32);width: 100%;height: 102vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
@@ -38,9 +41,6 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
     animation-delay:0s;}
 .acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
 .acshead{width: 100%;;z-index: 2;position: absolute;top: 29vh;}
-kahtshadow{        width: 50%;
-    height: 2vh; /* Set height for the line */
-    background: linear-gradient(to right, rgb(153, 25, 25) 20%, transparent 80%);}
 .butmor{width: 55%;height: 7.2vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 61vh;z-index: 3;left: 22.5%;border-radius: 2%;}
 .psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 2.35vh;left: 32%;font-weight: bolder;font-family: servic;}
 .padresen{z-index: 2;color: white;font-size: 2em;position: absolute;top: 74vh;left: 32%;}
@@ -51,9 +51,6 @@ kahtshadow{        width: 50%;
 .face1{left: 59%;}
 .charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
 .pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 86vh;}
-shadowzirhead{width: 100%;position: absolute;top: 98vh;z-index: 2;height: 10vh;}
-kaligraphy{position: absolute;top: 95vh;width: 100%;}
-rizesh1{position: absolute;top: 88vh;width: 100%;z-index: 4;}
 .kaghaz{position: absolute;top: 90vh;width: 100%;z-index: 5;}
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
 .MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
@@ -205,3 +202,8 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
     0%{width: 0.3vh;height: 0.3vh;}
     100%{width: 1vh;height: 1vh;}
 }
+}
+@media screen and (min-width: 766px) and (mmax-width: 1023px){}
+
+
+
