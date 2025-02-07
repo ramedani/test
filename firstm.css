@@ -8,9 +8,8 @@
     src: url(Swiss721BoldBT.ttf);
 }
 p{font-family: icon;}
-.logo{z-index: 1;top: 1vh;position: absolute;width: 3%;left: 38.5%;}
 
-@media screen and (max-width: 766px){
+
 .balabck{width: 100%;height: 50vh;}
 .pass1{background-color: rgb(35, 31, 32);width: 100%;height: 102vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
@@ -51,7 +50,7 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
 .face1{left: 59%;}
 .charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
 .pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 86vh;}
-.kaghaz{position: absolute;top: 90vh;width: 100%;z-index: 5;}
+
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
 .MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
 
@@ -202,8 +201,8 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
     0%{width: 0.3vh;height: 0.3vh;}
     100%{width: 1vh;height: 1vh;}
 }
-}
-@media screen and (min-width: 766px) and (mmax-width: 1023px){}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){}
 
 
 
