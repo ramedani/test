@@ -19,8 +19,19 @@
         <div class="pass1"></div>
         <img src="Logoscalp6.png " alt="" class="logo">
         <p class="peng">eng</p>
-        
-        <img src="l23calp1.png" class="l23calp" id="l23calp" ontouchstart="addTouchClassbala(1)" ontouchend="endTouchClassbala(1)" oncontextmenu="return false;">
+
+
+          
+
+
+
+<div class="drophover scalphover" ontouchstart="addTouchClassbala(1)" ontouchend="endTouchClassbala(1)"></div>
+
+<img src="l23calp1.png" class="l23calp">
+<div id="bainscalp" class="bainscalp"></div>
+<img src="kamelmicrop.png" class="l23calp l23calp2 ">
+
+
         <p class="pms pbalazi">MicroScalp</p>
         <div  id="circle1"></div>
         <div ontouchstart="addTouchClassbala(2)" ontouchend="endTouchClassbala(2)">
@@ -153,24 +164,18 @@
 
 </div>
 <script>
-    function addTouchClassbala(x) {
-      if(x == 1){document.getElementById('morabk1').classList.add('morabj');}
-      else if(x == 2){document.getElementById('morabk2').classList.add('morabj');}
-      else if(x == 3){document.getElementById('morabk3').classList.add('morabj');}
-      else if(x == 4){document.getElementById('morabk4').classList.add('morabj');}
-      }
-      function endTouchClassbala(x) {
-        if(x == 1){document.getElementById('morabk1').classList.remove('morabj');}
-        else if(x == 2){document.getElementById('morabk2').classList.remove('morabj');}
-        else if(x == 3){document.getElementById('morabk3').classList.remove('morabj');}
-        else if(x == 4){document.getElementById('morabk4').classList.remove('morabj');}
-      }
+const morabk1 = document.getElementById('morabk1');
+const morabk2 = document.getElementById('morabk2');
+const morabk3 = document.getElementById('morabk3');
+const morabk4 = document.getElementById('morabk4');
+
 const body = document.getElementById('body'); 
 const targetElement = document.getElementById('kolrange');
 const aksrang1 = document.getElementById('aksrang1');
 const akssoozan = document.getElementById('soozanpeak');
 let K = 1;
 let initialX = null;
+const bainscalp = document.getElementById('bainscalp');
 
 akssoozan.style.visibility = 'hidden';
 
@@ -221,6 +226,30 @@ targetElement.addEventListener('touchmove', (e) => {
 
           }
       }
+
+      function addTouchClassbala(x) {
+        if(x == 1){
+          morabk1.classList.add('morabj');
+          morabk1.classList.add('moveall');
+          bainscalp.classList.add('moveall')
+          bainscalp.classList.add('movebainscalp')
+      }
+
+        else if(x == 2){morabk2.classList.add('morabj');}
+        else if(x == 3){morabk3.classList.add('morabj');}
+        else if(x == 4){morabk4.classList.add('morabj');}
+        }
+        function endTouchClassbala(x) {
+          if(x == 1){
+            morabk1.classList.remove('moveall');
+            bainscalp.classList.remove('moveall')
+            bainscalp.classList.remove('movebainscalp')
+            morabk1.classList.remove('morabj');
+          }
+          else if(x == 2){morabk2.classList.remove('morabj');}
+          else if(x == 3){morabk3.classList.remove('morabj');}
+          else if(x == 4){morabk4.classList.remove('morabj');}
+        }
 </script>
 </body>
 </html>

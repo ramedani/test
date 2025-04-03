@@ -1,0 +1,226 @@
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
+@font-face {
+    font-family: servic;
+    src: url(FengardoNeue_Black.otf);
+}
+@font-face {
+    font-family: icon;
+    src: url(Swiss721BoldBT.ttf);
+}
+.delete3{position: absolute;top: 0vh;width: 100%;z-index: 14;height: auto;}
+.delete32{position: absolute;top: 100vh;width: 100%;z-index: 14;height: auto;}
+.delete322{position: absolute;top: 234vh;width: 100%;z-index: 14;height: auto;}
+.delete322-2{position: absolute;top: 303.8vh;width: 100%;height: auto;z-index: 14;}
+p{font-family: icon;}
+.balabck{width: 100%;height: 50vh;}
+.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 137vh;}
+.logo{z-index: 1;top: 3vh;position: absolute;width: 9%;left: 45.4%;height: auto;}
+.l23calp{z-index: 1;position: absolute;top: 9vh;left: 29%;;width: 4.8vh;touch-action:none;}
+.iconbala{color: #bdb94f;z-index:3;font-size: 0.4em;position: absolute;top: 10vh;left: 38.3%;}
+.cardaddres{left: 61%;font-size: 0.4em;top: 10.5vh;}
+.pbala{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;}
+.peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 7.5vh;right: 18%;font-family: icon;}
+pmss{font-size: 3vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 18.2vh;left: 26%;}
+pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 13.5vh;left:55%}
+.pbalazi{font-size: 2vh;color: white;z-index: 2;position: absolute;top: 15.5vh;font-family: icon;}
+.pms{left:27.5%}
+.pmat{left:37%}
+.pabout{left:60%}
+.pcont{left:68.5%}
+.morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 20vh;border-radius: 50%}
+.morab1{top: 17.5vh;right: 18%;height: 0.9vh;width: 0.9vh;background-color: rgb(189, 185, 97);border-radius: 0%}
+.morab2{top: 17.5vh;left: 18%;height: 0.9vh;width: 0.9vh;background-color: rgb(189, 185, 97);border-radius: 0%}
+.morab31{left: 30%;}
+.morab32{left: 39%;}
+.morab33{left: 62%;}
+.morab34{left: 71%;}
+.morabj{background-color: rgb(189, 185, 97);
+    overflow-x: hidden;
+    animation-name: morabj;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+.acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
+.acshead{width: 80%;;z-index: 2;position: absolute;top: 24vh;left: 10%;height: 64vh;}
+.butmor{width: 14.2%;height: 7.6vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 71.9vh;z-index: 3;left: 42.9%;border-radius: 2%;}
+.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 2.35vh;left: 38%;font-weight: bolder;font-family: servic;}
+.padresen{z-index: 2;color: white;font-size: 1em;position: absolute;top: 58.5vh;right:18%;}
+.pnumber{z-index: 2;color: white;font-size: 1em;position: absolute;top: 64vh;right: 18%;}
+.social1{position: absolute;top: 89.5vh;font-size: 3em;color: #ffffff;z-index: 3;visibility: hidden;}
+telegram1{left: 37%;}
+insta1{left: 48%;}
+face1{left: 59%;}
+
+.charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
+.pass2{background-color: #ffffff;width: 100%;height: 95vh;z-index:1;position: absolute;top: 139vh;}
+.pass2bala{width: 64%;position: absolute;top: 105.5vh;height: 39vh;background-color: #ffffff;z-index: 1;left: 18%;}
+.aab{position: absolute;top: 85vh;width: 100%;z-index: 2;display: none;}
+.MICROSCALP2{position: absolute;top: 117vh;font-size: 0.9em;z-index: 3;font-weight: bolder;left: 37%;font-family: servic;color: rgb(35, 31, 32);z-index: 1;}
+
+.pfacebookbala{position: absolute;top: 76.1vh;font-size: 0.8em;z-index:2;left: 66.5%;color: rgb(255, 255, 255);}
+.pinstabala{left: 72.2%;}
+.ptelegrambala{left: 78.2%;}
+.felpain1desk{position: absolute;top: 93vh;left: 48%;width: 3.2%;height: auto;z-index: 2;transform: rotate(-90deg);}
+.felpain2desk{position: absolute;top: 92vh;left: 47.5%;width: 2%;height: auto;z-index: 2;transform: rotate(-90deg);}
+.felpain3desk{position: absolute;top: 92vh;left: 49.7%;width: 2%;height: auto;z-index: 2;transform: rotate(-90deg);}
+.khatzirsocial2bala{background-color:rgb(70, 67, 56);width: 4%;height: 0.2vh;top: 79.5vh;left: 66.5%;position: absolute;z-index: 5;}
+.khatzirsocial2bala2{left: 72.5%;}
+.khatzirsocial2bala3{left: 78.3%;}
+
+dast{position: absolute;top: 157.5vh;z-index: 2;left:74%;width: 12%;height: auto;transform: rotate(10deg);}
+circle001{
+    width: 7.5vh;
+    height: 7.5vh;
+    border: 0.25vh solid rgb(189, 185, 97);
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;top: 157vh;left:71%;
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 50% 14%, 0% 100%, 0 0);
+    transform: rotate(90deg);
+}
+circle010{
+    width: 9vh;
+    height: 9vh;
+    border: 0.25vh solid rgb(189, 185, 97);
+    border-radius: 50%;
+    box-sizing: border-box;
+    z-index: 2;
+    position: absolute;top: 156.25vh;left:69.3%;
+}
+.dairedorkol{position: absolute;width: 5.7vw;height: auto;top: 123vh;left: 62vw;;z-index: 1;
+    overflow-x: hidden;
+    animation-name: dordastkol;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay:0s;}
+.dairedor{position: absolute;width: 5.7vw;height: auto;top: 123vh;left: 62vw;z-index: 1;}
+.dastdesk{position: absolute;width: 5.7vw;height: auto;top: 123vh;left:62vw;z-index: 1;}
+
+.khatbozorg{z-index: 2;width: 49.5%;height: auto;position: absolute;top: 152vh;left: 31%;}
+.star{z-index: 2;position: absolute;top: 151vh;font-size: 0.8em;left: 18.5%;}
+.whatmicro{position: absolute;font-size: 1em;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 151vh;left: 19.7%;}
+.star2{top: 170vh;}
+.whatisjav{font-size: 1em;z-index: 2;color: rgb(35, 31, 32);top: 158vh;position: absolute;left: 19.7%;right: 19.7;}
+.khatbozorg2{top: 171vh;}
+.repetq{top: 170vh;}
+.repeatq{font-size: 1em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 256vh;position: absolute;left: 19.7%;}
+.javab1repeat{font-size: 0.9em;z-index: 2;color: rgb(35, 31, 32);top: 260vh;position: absolute;left: 19.7%;}
+.repeatq2{top: 191vh;}
+.javab2repeat{top: 198vh;}
+.repeatq3{top: 177vh;}
+.javab3repeat{top: 184vh;}
+.repeatq4{top: 205vh;}
+.javab4repeat{top: 212vh;}
+
+.pass31{background-color: rgb(35, 31, 32);width: 25%;height: 250vh;position: absolute;top: 226vh;left: 37.5%;z-index: 1;}
+.pass32{width: 100%;height: 247vh;top: 230vh;background-color: rgb(35, 31, 32);z-index: 0;}
+.tarhbalamaterial{position: absolute;top: 220vh;z-index: 2;width: 7.5%;height: auto;left: 46.25%;}
+.khatsorkh{z-index: 1;width: 4.5%;position: absolute;left: 43.5%;top: 235.4vh;}
+.khatsorkh2{left: 52%;transform: rotate(180deg);}
+.tattopenbala{position: absolute;top: 231.7vh;left: 48.5%;z-index: 2;width: 3%;height: auto;transform: rotate(315deg);}
+.khatsefiidmate{width: 0.1%;height: 7vh;position:absolute;top: 239.5vh;left: 49.95%;z-index: 1;background-color: #ffffff;border-radius: 5%;}
+.MATERIAL{top: 241vh;left: 45.8%;color: rgb(255, 255, 255);font-size: 1.9em;}
+.rangpeak{z-index: 2;position: absolute;top: 345vh;left: 31%;height: auto;width: 38%;
+}
+.circlematerialch{z-index: 1;width: 9.5vh;height: 9.5vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 288vh;justify-content: center;visibility: hidden;}
+.feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.8vh;visibility: hidden;}
+.circlematerialr{right:1%;}
+.feleshmaterialr{left: 13%;transform: rotate(180deg);}
+.organicmaterial{top: 295vh;left: 27%;color: rgb(255, 255, 255);visibility: hidden;}
+.organicmaterialcolor{top: 300vh;left: 39%;color: rgb(255, 255, 255);visibility: hidden;}
+.rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
+.rangpeaknevo{left: 50%;top: 254vh;}
+.tozihrangm{color: rgb(255, 255, 255);top: 308vh;left: 8%;right: 8%;visibility: hidden;}
+.soozanpeak{z-index: 2;position: absolute;top: 245vh;left: 26%;height: auto;width: 48%;}
+.butmor2{top: 325vh;visibility: hidden;}
+.morabmaterial1{top: 342vh;width: 0.7vh;left: 30%;height: 0.7vh;visibility: hidden;}
+.morabmaterial2{top: 342vh;width: 0.7vh;left: 50%;height: 0.7vh;visibility: hidden;}
+.morabmaterial3{top: 342vh;width: 0.7vh;left: 70%;height: 0.7vh;visibility: hidden;}
+.aksinstamaterial{z-index:1;width:13.5%;height: auto;position: absolute;top: 352vh;left: 43.25%;}
+.khatarminsta{width: 38%;height: 0.3vh;z-index: 2;position: absolute;top: 353.2vh;background-color: rgb(97, 94, 51);left: 2.5%;}
+.khatarminsta2{left: 59.5%;}
+.nevinstamaterial{font-size: 2.4em;color: rgb(191, 188, 80);top: 356vh;position: absolute;left: 40%;}
+.masalaaksay{width: 100%;height: 50%;position: absolute;top: 362vh;background-color: rgb(35, 31, 32);z-index: 12;}
+.feleshmaterial-paiin{z-index: 2;width: auto;height: 9vh;position: absolute;top: 415vh;left: 48%;}
+.charkh-paiin{z-index: 1;position:absolute;top: 419.5vh;width: 100%;height: auto;}
+.akszeirfelmat{z-index: 2;position: absolute;top: 429vh;width: 100%;height: auto;}
+.graydelete{width: 100%;height: 8vh;z-index: 1;background-color: rgb(192, 192, 192);position: absolute;top: 469vh;background-color: black;}
+
+.mkhatbironch{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 36.2vh;top: 305vh;left: 25.3%;}
+.mkhatbironamobch{position: absolute;background-color: rgb(97, 94, 51);width: 0.6%;height:0.1vw;top: 305vh;left: 25.3%;}
+.mkhatbironkbch{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 0.7vw;top: 303.8vh;left: 25.9%;z-index: 2;}
+.mkhatbironamopch{position: absolute;background-color: rgb(97, 94, 51);width: 0.6%;height:0.1vw;top: 341.2vh;left: 25.3%;}
+.mkhatbironkpch{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 0.7vw;top: 341.2vh;left: 25.9%;}
+.mkhatbironamobb{position: absolute;background-color: rgb(97, 94, 51);width: 13.5%;height: 0.1vw;top: 303.8vh;left: 25.9%;z-index: 2;}
+.mkhatbironamobpch{position: absolute;background-color: rgb(97, 94, 51);width: 1.2%;height: 0.1vw;top: 342.6vh;left: 25.9%;z-index: 2;}
+.mkhatbironkbr{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 0.7vw;top: 303.8vh;left: 39.4%;z-index: 2;}
+.mkhatbironamobr{position: absolute;background-color: rgb(97, 94, 51);width: 0.6%;height:0.1vw;top: 305vh;left: 39.4%;z-index: 2;}
+.mkhatbironr{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 36.2vh;top: 305vh;left: 39.9%;z-index: 2;}
+.mkhatbironamopr{position: absolute;background-color: rgb(97, 94, 51);width: 0.6%;height:0.1vw;top: 341.2vh;left: 39.4%;z-index: 2;}
+.mkhatbironkpr{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 0.7vw;top: 341.2vh;left: 39.4%;z-index: 2;}
+.mkhatbironamobpr{position: absolute;background-color: rgb(97, 94, 51);width: 0.8%;height: 0.1vw;top: 342.6vh;left: 38.7%;z-index: 2;}
+
+.mkhatdaronch{position: absolute;background-color: rgb(97, 94, 51);width: 0.1vw;height: 34.8vh;top: 305.8vh;left: 25.65%;z-index: 2;}
+
+.pass4{background-color: #ffffff;width: 100%;height: 250vh;position: absolute;top: 480vh;}
+.editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;transform: rotate(-2deg);
+    border-top-left-radius: 19%;}
+.editpass42{background-color: rgb(255, 255, 255);width: 50%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 0;
+border-top-right-radius: 19%;transform: rotate(2deg);}
+.navarabout{background-color: rgb(35, 31, 32);width: 100%;height: 6.5vh;position: absolute;top: 485.5vh;z-index: 3;}
+.pnavaboutus{top: 2vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
+.akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
+.peducation{position: absolute;top: 494.5vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
+.madarekavalm1{position: absolute;top: 509vh;width: 30%;height: auto;left: 35%;}
+.madarekavalk1{position: absolute;top: 509vh;width: 50%;height: auto;left: 25%;}
+.pmadrakaval{top: 527vh;font-weight: bolder;left: 26%}
+.madarekavalm2{top: 535vh;;}
+.pmadrakdovom{top: 553vh;font-weight: bolder;left: 26%}
+.madarekavalm3{top: 561vh;;}
+.pmadraksevom{top: 579vh;font-weight: bolder;left: 26%}
+.madarekavalm4{top: 587vh;;}
+.pmadrakchar{top: 605vh;font-weight: bolder;left: 26%}
+.ghotbnamad{position: absolute;top: 615vh;width: 45%;height: auto;left:27.5%;}
+.ghotbnamav{left:27.5%;}
+
+.pcontact{top: 637vh;left: 32%;}
+.shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
+.social2{position: absolute;top: 760vh;font-size: 3vh;color: #231f20;}
+.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 30%;position: absolute;}
+.khatzirsocial21{left: 46%;}
+.khatzirsocial22{left: 62%;}
+.map{position: absolute;top: 672vh;width: 100%;height: auto;}
+.zarbdarcont11{position: absolute;top: 690vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
+.zarbdarcont12{transform: rotate(-45deg);}
+.maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
+.khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
+
+
+
+
+    
+.animemadarekalav{animation-name: madrakaval;
+    animation-duration: 0.41s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+    @keyframes madrakaval
+{
+    0%{width: 30%;left: 35%;top: 509vh;}
+    100%{width:13%;left:55%;top: 516vh;}
+}
+
+@keyframes morabj
+{
+    0%{width: 0.3vh;height: 0.3vh;}
+    100%{width: 1vh;height: 1vh;}
+}
+@keyframes dordastkol{
+    0%{width: 5.7vw;top: 123vh;left: 62vw;}
+    10%{width: 5.7vw;top: 123vh;left: 62vw;}
+    60%{width: 5.3vw;top: 123.4vh;left: 62.2vw;}
+    100%{width: 5.7vw;top: 123vh;left: 62vw;}
+}

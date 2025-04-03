@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incomplete Circle</title>
+</head>
+<body>
+  <img src="l23calp1.png" class="l23calp" id="l23calp"  oncontextmenu="return false;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <canvas id="myCanvas" width="200" height="200"></canvas>
+    <script>
+        var canvas = document.getElementById('myCanvas');
+        var ctx = canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.arc(100, 100, 50, 0, 4.71); // Drawing an arc from 0 to 270 degrees (4.71 radians)
+        ctx.stroke();
+    </script>
+</body>
+</html>
+
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="rgb(189, 185, 97)" stroke-width="2" fill="none" stroke-dasharray="251.2" stroke-dashoffset="75" />
+  </svg>
+
+  <style>
+    circle {
+      animation: drawCircle 2s linear forwards;
+    }
+
+  </style>
+  
