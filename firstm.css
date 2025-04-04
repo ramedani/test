@@ -32,16 +32,17 @@ p{font-family: icon;}
         z-index: 5;
     
       }
-      .scalphover{width: 18%;left: 5%;z-index: 13;position: absolute;top: 16.2vh;height: 9.5vh;}
+      .scalphover{left: 5%;top: 16.2vh;width: 18%;;height: 9.5vh;position: absolute;z-index: 13}
+      .drophover{width: 13%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
+.baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
 
-.iconbala{color: #bdb94f;z-index:3;font-size: 3vh;position: absolute;top: 17.5vh;}
+.iconbala{color: #bdb94f;z-index:3;position: absolute;top: 16vh;;height: auto;left: 35%;width: 7%;}
 .pbala{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;}
 .peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 3vh;right: 2vh;font-family: icon;}
-pmss{font-size: 3vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 18.2vh;left: 26%;}
-pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top: 13.5vh;left:55%}
-.pbalazi{font-size: 1.5vh;color: white;z-index: 2;position: absolute;top: 22vh;font-family: icon;}
+
+.pbalazi{font-size: 1.5vh;color: white;z-index: 5;position: absolute;top: 22vh;font-family: icon;}
 .pms{left:5%}
 .pmat{left:32%}
 .pabout{left:56%}
@@ -55,7 +56,7 @@ pmss2{font-size: 1.5vh;color: rgb(97, 94, 51);z-index: 2;position: absolute;top:
 .morab34{left: 87%;}
 .morabj{background-color: rgb(189, 185, 97);
     overflow-x: hidden;
-    animation-name: morabj;width: 1vh;height: 1vh;}
+    animation-name: morabj;width: 0.56vh;height: 0.56vh;}
 .acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
 .acshead{width: 100%;;z-index: 2;position: absolute;top: 29vh;}
 .butmor{width: 55%;height: 7.2vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 61vh;z-index: 3;left: 22.5%;border-radius: 2%;}
@@ -217,9 +218,16 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 @keyframes morabj
 {
     0%{width: 0.3vh;height: 0.3vh;}
-    100%{width: 1vh;height: 1vh;}
+    100%{width: 0.56vh;height: 0.56vh;}
 }
-
+.morabjback{background-color: rgb(189, 185, 97);
+    overflow-x: hidden;
+    animation-name: morabjback;}
+@keyframes morabjback
+{
+    0%{width: 0.56vh;height: 0.56vh;}
+    100%{width: 0.3vh;height: 0.3vh;}
+}
 .movebainscalp{
     animation-name: movebainscalp;top: 14.5vh;left: 7%;
 }
@@ -228,6 +236,52 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
     0%{top: 13vh;left: 4%;}
     100%{top: 14.5vh;left: 7%;}
 }
+.movebainscalpback{
+    animation-name: movebainscalpback;
+}
+@keyframes movebainscalpback
+{
+    0%{top: 14.5vh;left: 7%;}
+    100%{top: 13vh;left: 4%;}
+}
+.pmatc{animation-name: pmatc;
+    animation-duration: 1.1s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;
+color: rgb(123, 121, 120);}
+    @keyframes pmatc{
+        0%{color: #ffffff;}
+        100%{color: rgb(123, 121, 120);}
+    }
+.pmatcback{animation-name: pmatcback;
+        animation-duration: 1.1s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;
+    color: white;
+    }
+    @keyframes pmatcback{
+        0%{color: rgb(123, 121, 120);}
+        100%{color: #ffffff;}
+    }
+
+.movebaindrop{
+        animation-name: movedrop;top: 21vh;
+
+    }
+    @keyframes movedrop{
+        0%{top: 16vh;}
+        100%{top: 21vh;}
+    }
+.moveBACKbaindrop{    animation-name: movebackdrop;
+}
+        @keyframes movebackdrop{
+            0%{top: 21vh;}
+            100%{top: 16vh;}
+        }
+
+
 @media screen and (min-width: 767px) and (max-width: 1023px){
     
 }
@@ -238,4 +292,6 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
         animation-timing-function: inherit;
         animation-delay:0s;}
 
-
+        
+        
+        
