@@ -34,6 +34,7 @@ p{font-family: icon;}
       }
       .scalphover{left: 5%;top: 16.2vh;width: 18%;;height: 9.5vh;position: absolute;z-index: 13}
       .drophover{width: 13%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
+      .abouthover{width: 14.5%;left: 56%;z-index: 99;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
@@ -217,16 +218,16 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 
 @keyframes morabj
 {
-    0%{width: 0.3vh;height: 0.3vh;}
-    100%{width: 0.56vh;height: 0.56vh;}
+    0%{width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51)}
+    100%{width: 0.56vh;height: 0.56vh;background-color: rgb(189, 185, 97);}
 }
-.morabjback{background-color: rgb(189, 185, 97);
+.morabjback{background-color: rgb(97, 94, 51);
     overflow-x: hidden;
     animation-name: morabjback;}
 @keyframes morabjback
 {
-    0%{width: 0.56vh;height: 0.56vh;}
-    100%{width: 0.3vh;height: 0.3vh;}
+    0%{width: 0.56vh;height: 0.56vh;background-color: rgb(189, 185, 97);}
+    100%{width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51)}
 }
 .movebainscalp{
     animation-name: movebainscalp;top: 14.5vh;left: 7%;
