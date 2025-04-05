@@ -41,9 +41,35 @@
           <div id="baindrop" class="baindrop"></div>
 
         <p id="pmat" class="pmat pbalazi">material</p>
-        <div ontouchstart="addTouchClassbala(3)" ontouchend="endTouchClassbala(3)">
-        <i class="fa-solid fa-address-card iconbala" style="left: 59%;"></i></div>
-        <p class="pabout pbalazi">About Us</p>
+
+        <canvas id="adamvedit" width="500" height="500"></canvas>
+        <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" class="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<image style="overflow:visible;" id="adamv" class="my-svg-image " width="500" height="500" xlink:href="D:\kamelcont7.png" >
+</image>
+</svg>
+
+<?xml version="1.0" encoding="utf-8"?>
+<!--addamr-->
+<svg version="1.1" id="adamr" class="Layer_1 testr" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<image style="overflow:visible;" class="my-svg-image " width="500" height="500" xlink:href="D:\kamelcont5.png" >
+</image>
+</svg>
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<!-- adamch  -->
+<svg version="1.1" id="adamch" class="Layer_1 my-svg-imager testch" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<image style="overflow:visible;"  class="my-svg-image "  width="500" height="500" xlink:href="D:\kamelcont6.png" >
+</image>
+</svg>
+        <div class="drophover abouthover" ontouchstart="addTouchClassbala(3)" ontouchend="endTouchClassbala(3)"></div>
+
+        <p id="pabout" class="pabout pbalazi">About Us</p>
         <div ontouchstart="addTouchClassbala(4)" ontouchend="endTouchClassbala(4)" class="test2">
         <i class="fa-regular fa-compass iconbala" style="left: 83%;"></i></div>
         <p class="pcont pbalazi">Content Us</p>
@@ -179,12 +205,27 @@ const aksrang1 = document.getElementById('aksrang1');
 const akssoozan = document.getElementById('soozanpeak');
 const pms = document.getElementById('pms')
 const pmat = document.getElementById('pmat');
+const pabout = document.getElementById('pabout')
 const baindrop = document.getElementById('baindrop')
 let K = 1;
 let initialX = null;
 const bainscalp = document.getElementById('bainscalp');
 
 akssoozan.style.visibility = 'hidden';
+
+
+
+var adamvedit = document.getElementById('adamvedit');
+var ctx = adamvedit.getContext('2d');
+var img = new Image();
+adamvedit.classList.add('Layer_2')
+adamvedit.classList.add('my-svg-image2')
+img.onload = function() {
+    ctx.drawImage(img, 0, 0);
+};
+img.src = 'adamvedit3test4.svg';
+
+
 
 targetElement.addEventListener('touchstart', (e) => {
     initialX = e.touches[0].clientX;
@@ -257,7 +298,19 @@ targetElement.addEventListener('touchmove', (e) => {
           baindrop.classList.add('movebaindrop')
 
         }
-        else if(x == 3){morabk3.classList.add('morabj');}
+        else if(x == 3){
+          adamr.classList.remove('moveadamrback');
+          adamch.classList.remove('moveadamchback');
+          pabout.classList.remove('pmatcback')
+          morabk3.classList.remove('morabjback')
+          morabk3.classList.add('morabj');
+          morabk3.classList.add('moveall');
+          pabout.classList.add('pmatc');
+          adamch.classList.remove('testch');
+          adamr.classList.remove('testr');
+          adamch.classList.add('moveadamch');
+          adamr.classList.add('moveadamr');
+        }
         else if(x == 4){morabk4.classList.add('morabj');}
         }
         function endTouchClassbala(x) {
@@ -280,7 +333,18 @@ targetElement.addEventListener('touchmove', (e) => {
 
 
           }
-          else if(x == 3){morabk3.classList.remove('morabj');}
+          else if(x == 3){
+            adamr.classList.remove('moveadamr');
+            adamch.classList.remove('moveadamch');
+            morabk3.classList.remove('morabj')
+            morabk3.classList.add('morabjback');
+            pabout.classList.remove('pmatc')
+            pabout.classList.add('pmatcback')
+            adamch.classList.add('testch');
+            adamr.classList.add('testr');
+            adamch.classList.add('moveadamchback');
+            adamr.classList.add('moveadamrback');
+          }
           else if(x == 4){morabk4.classList.remove('morabj');}
         }
 </script>
