@@ -45,12 +45,12 @@ p{font-family: icon;}
           .my-svg-image2 {
 
             z-index: 99;
-            width: 8.5%; 
+            width: 7.8%; 
           }
           #adamv{z-index:2;}
-          .Layer_2{position: absolute;top: 17vh; left: 58%; z-index: 15;}
-          .testch{left: 59%;top: 9vh;}
-.testr{left: 59%;top: 9vh;}
+          .Layer_2{position: absolute;top: 16.9vh; left: 59%; z-index: 15;}
+          .testch{left: 61.5%;top: 9.3vh;}
+.testr{left: 56.5%;top: 8.3vh;}
       .scalphover{left: 5%;top: 16.2vh;width: 18%;;height: 9.5vh;position: absolute;z-index: 13}
       .drophover{width: 13%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
       .abouthover{width: 14.5%;left: 56%;z-index: 99;}
@@ -300,6 +300,40 @@ color: rgb(123, 121, 120);}
             0%{top: 21vh;}
             100%{top: 16vh;}
         }
+
+        
+.moveadamch{
+    animation-name: moveadamch;
+
+}    @keyframes moveadamch{
+    0%{left: 61.5%;top: 9.3vh;}
+    60%{left: 59%;top: 9vh;}
+    100%{left: 59%;top: 9vh;}
+}
+.moveadamr{
+    animation-name: moveadamr;
+
+}    @keyframes moveadamr{
+    0%{left: 56.5%;top: 8.3vh;}
+    60%{left: 59%;top: 9vh;}
+    100%{left: 59%;top:9vh;}
+}
+.moveadamchback{
+    animation-name: moveadamchback;
+
+}    @keyframes moveadamchback{
+    0%{left: 59%;top: 9vh;}
+    60%{left: 61.5%;top: 9.3vh;}
+    100%{left: 61.5%;top: 9.3vh;}
+}
+.moveadamrback{
+    animation-name: moveadamrback;
+
+}    @keyframes moveadamrback{
+    0%{left: 59%;top:9vh;}
+    60%{left: 56.5%;top: 8.3vh;}
+    100%{left: 56.5%;top: 8.3vh;}
+}
 
 
 @media screen and (min-width: 767px) and (max-width: 1023px){
