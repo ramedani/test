@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Design Example</title>
+    <p id="pp">Responsive Design Example</p>
+    <P ></P>
     <style>
         /* Common styles for all mobile devices */
         p {
@@ -54,14 +55,16 @@
 <body>
     <p>This text will have different styles based on the screen width model.</p>
     <script>
-        
+
+
         var userAgent = navigator.userAgent;
         var phoneModelCode = userAgent.match(/\d+[a-zA-Z]+/);
         
         console.log("Phone Model Code: ", phoneModelCode[0]);
 alert(phoneModelCode)        
         
-    
+const pp = document.getElementById('pp')
+pp.innerText = phoneModelCode
     
     </script>
 </body>
