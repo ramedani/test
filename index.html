@@ -20,11 +20,6 @@
         <img src="Logoscalp6.png " alt="" class="logo">
         <p class="peng">eng</p>
 
-
-          
-
-
-
 <div class="scalphover" ontouchstart="addTouchClassbala(1)" ontouchend="endTouchClassbala(1)"></div>
 
 <img src="l23calp1.png" class="l23calp">
@@ -67,12 +62,16 @@
 <image style="overflow:visible;"  class="my-svg-image "  width="500" height="500" xlink:href="D:\kamelcont6.png" >
 </image>
 </svg>
+
+
         <div class="drophover abouthover" ontouchstart="addTouchClassbala(3)" ontouchend="endTouchClassbala(3)"></div>
 
         <p id="pabout" class="pabout pbalazi">About Us</p>
-        <div ontouchstart="addTouchClassbala(4)" ontouchend="endTouchClassbala(4)" class="test2">
-        <i class="fa-regular fa-compass iconbala" style="left: 83%;"></i></div>
-        <p class="pcont pbalazi">Content Us</p>
+        <div   class="test2">
+          <div class="drophover conthover"  ontouchstart="addTouchClassbala(4)" ontouchend="endTouchClassbala(4)"></div>
+          <canvas id="ghotbcanvasv" width="227" height="227"></canvas>
+          <canvas id="ghotbcanvasd" width="227" height="227"></canvas>
+        <p id="pcont" class="pcont pbalazi">Content Us</p>
         <div class="morab morab1"></div>
         <div class="morab morab2"></div>
         <div class="morab morab31" id="morabk1"></div>
@@ -206,6 +205,7 @@ const akssoozan = document.getElementById('soozanpeak');
 const pms = document.getElementById('pms')
 const pmat = document.getElementById('pmat');
 const pabout = document.getElementById('pabout')
+const pcont = document.getElementById('pcont')
 const baindrop = document.getElementById('baindrop')
 let K = 1;
 let initialX = null;
@@ -226,6 +226,26 @@ img.onload = function() {
     ctx.drawImage(img, 0, 0);
 };
 img.src = 'adamvedit3.svg';
+
+var ghotbcanvasv = document.getElementById('ghotbcanvasv');
+var ctx2 = ghotbcanvasv.getContext('2d');
+var img2 = new Image();
+ghotbcanvasv.classList.add('Layer_ghotbv2')
+ghotbcanvasv.classList.add('image-ghotbv')
+img2.onload = function() {
+    ctx2.drawImage(img2, 0, 0);
+};
+img2.src = 'ghotbsvgv.svg';
+
+var ghotbcanvasd = document.getElementById('ghotbcanvasd');
+var ctx3 = ghotbcanvasd.getContext('2d');
+var img3 = new Image();
+ghotbcanvasd.classList.add('Layer_ghotbv2')
+ghotbcanvasd.classList.add('image-ghotbv')
+img3.onload = function() {
+    ctx3.drawImage(img3, 0, 0);
+};
+img3.src = 'ghotbsvgd.svg';
 
 
 
@@ -313,7 +333,19 @@ targetElement.addEventListener('touchmove', (e) => {
           adamch.classList.add('moveadamch');
           adamr.classList.add('moveadamr');
         }
-        else if(x == 4){morabk4.classList.add('morabj');}
+        else if(x == 4){
+          
+          ghotbcanvasd.classList.remove('balamoshghotbdback')
+          ghotbcanvasv.classList.remove('balamoshghotbvback')
+          morabk4.classList.remove('morabjback')
+          pcont.classList.remove('pmatcback')
+          morabk4.classList.add('morabj');
+          pcont.classList.add('pmatc')
+          ghotbcanvasv.classList.add('balamoshghotbv')
+          ghotbcanvasd.classList.add('balamoshghotbd')
+          ghotbcanvasv.classList.add('moveall')
+          ghotbcanvasd.classList.add('moveall')
+        }
         }
         function endTouchClassbala(x) {
           if(x == 1){
@@ -347,7 +379,17 @@ targetElement.addEventListener('touchmove', (e) => {
             adamch.classList.add('moveadamchback');
             adamr.classList.add('moveadamrback');
           }
-          else if(x == 4){morabk4.classList.remove('morabj');}
+          else if(x == 4){
+            morabk4.classList.remove('morabj');
+            ghotbcanvasd.classList.remove('balamoshghotbd')
+            ghotbcanvasv.classList.remove('balamoshghotbv')
+
+            pcont.classList.remove('pmatc')
+            pcont.classList.add('pmatcback')
+            morabk4.classList.add('morabjback')
+            ghotbcanvasv.classList.add('balamoshghotbvback')
+            ghotbcanvasd.classList.add('balamoshghotbdback')
+          }
         }
 </script>
 </body>

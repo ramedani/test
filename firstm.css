@@ -47,13 +47,25 @@ p{font-family: icon;}
             z-index: 99;
             width: 7.8%; 
           }
+          .Layer_ghotbv2{    position: absolute;
+            top: 16vh; 
+            left: 82.5%;
+            z-index: 15;
+        }
+        .image-ghotbv{
+            z-index:2;
+            width: 10%; 
+        }
           #adamv{z-index:2;}
           .Layer_2{position: absolute;top: 16.9vh; left: 59%; z-index: 15;}
           .testch{left: 61.5%;top: 9.3vh;}
 .testr{left: 56.5%;top: 8.3vh;}
-      .scalphover{left: 5%;top: 16.2vh;width: 18%;;height: 9.5vh;position: absolute;z-index: 13}
-      .drophover{width: 13%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
+
+
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
+      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
       .abouthover{width: 14.5%;left: 56%;z-index: 99;}
+      .conthover{width: 17%;left: 79%;z-index: 99;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
@@ -70,9 +82,9 @@ p{font-family: icon;}
 .morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 25vh;border-radius: 50%}
 .morab1{top: 15vh;right: 5%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
 .morab2{top: 15vh;left: 5%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
-.morab31{left: 13%;}
-.morab32{left: 37%;}
-.morab33{left: 62%;}
+.morab31{left: 13.5%;}
+.morab32{left: 38%;}
+.morab33{left: 63%;}
 .morab34{left: 87%;}
 .morabj{background-color: rgb(189, 185, 97);
     overflow-x: hidden;
@@ -333,6 +345,42 @@ color: rgb(123, 121, 120);}
     0%{left: 59%;top:9vh;}
     60%{left: 56.5%;top: 8.3vh;}
     100%{left: 56.5%;top: 8.3vh;}
+}
+.balamoshghotbv{
+    animation-name: balamoshghotbv;
+transform: rotate(45deg);
+}
+@keyframes balamoshghotbv{
+    0%{transform: rotate(0);}
+    80%{transform: rotate(45deg);}
+    100%{transform: rotate(45deg);}
+}
+.balamoshghotbvback{
+    animation-name: balamoshghotbvback;
+
+}
+@keyframes balamoshghotbvback{
+    0%{transform: rotate(45deg);}
+    80%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.balamoshghotbd{
+    animation-name: balamoshghotbd;transform: rotate(15deg);
+}
+@keyframes balamoshghotbd{
+    0%{transform: rotate(0);}
+    80%{transform: rotate(15deg);}
+    100%{transform: rotate(15deg);}
+}
+.balamoshghotbdback{
+    animation-name: balamoshghotbdback;
+
+}
+@keyframes balamoshghotbdback{
+    0%{transform: rotate(15deg);}
+    80%{transform: rotate(0deg);}
+    100%{transform: rotate(0deg);}
 }
 
 
