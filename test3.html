@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design Example</title>
+    <style>
+        /* Common styles for all mobile devices */
+        p {
+            color: black;
+            font-size: 16px;
+        }
+
+        /* Styles for mobile 's' (320px) */
+        @media only screen and (max-width: 320px) {
+            p {
+                color: blue;
+                font-size: 14px;
+            }
+        }
+
+        /* Styles for mobile 'm' (375px) */
+        @media only screen and (min-width: 321px) and (max-width: 376px) {
+            p {
+                color: green;
+                font-size: 16px;
+            }
+        }
+
+        /* Styles for mobile 'l' (425px) */
+        @media only screen and (min-width: 377px) and (max-width: 426px) {
+            p {
+                color: red;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>This text will have different styles based on the screen width model.</p>
+</body>
+</html>
