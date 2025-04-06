@@ -54,13 +54,21 @@
 <body>
     <p>This text will have different styles based on the screen width model.</p>
     <script>
-        var phoneModelCode = navigator.userAgent;
-console.log(phoneModelCode);
+        
+// Get the user agent string
+var userAgent = navigator.userAgent;
+
+// Extract the phone model from the user agent string
+var matches = userAgent.match(/Model (\w+)/);
+if (matches) {
+    var phoneModel = matches[1];
+    console.log("Phone Model Code:", phoneModel);
+    alert(phoneModel)
+}
 
         
-        
-        
-        
-        alert(phoneModelCode)</script>
+    
+    
+    </script>
 </body>
 </html>
