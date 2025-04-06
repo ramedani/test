@@ -28,6 +28,13 @@
         ctx.beginPath();
         ctx.arc(100, 100, 50, 0, 4.71); // Drawing an arc from 0 to 270 degrees (4.71 radians)
         ctx.stroke();
+
+
+        // Get the phone model code
+const phoneModel = navigator.userAgent.match(/Model\/(\S+)/)[1];
+
+console.log(phoneModel);
+
     </script>
 </body>
 </html>
