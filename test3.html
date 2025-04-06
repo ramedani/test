@@ -60,6 +60,8 @@ var userAgent = navigator.userAgent;
 
 // Extract the phone model from the user agent string
 var matches = userAgent.match(/Model (\w+)/);
+var phoneModel = matches[1];
+alert(phoneModel)
 if (matches) {
     var phoneModel = matches[1];
     console.log("Phone Model Code:", phoneModel);
