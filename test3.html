@@ -56,16 +56,12 @@
     <p>This text will have different.</p>
     <script>
 
-
-        var userAgent = navigator.userAgent;
-        var phoneModelCode = userAgent.match(/\d+[a-zA-Z]+/);
+        const phoneModel = navigator.userAgent;
+        const screenWidth = window.innerWidth;
+        const screenHeight = window.innerHeight;
+        alert("Phone Model:", phoneModel, "Screen Width:", screenWidth, "Screen Height:", screenHeight);
         
-        console.log("Phone Model Code: ", phoneModelCode[0]);
-alert(phoneModelCode)        
-        
-const pp = document.getElementById('pp')
-pp.innerText = phoneModelCode
-    
+       
     </script>
 </body>
 </html>
