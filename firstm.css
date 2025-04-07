@@ -1,3 +1,4 @@
+
 *{margin: 0%;padding: 0%;box-sizing: border-box;}
 @font-face {
     font-family: servic;
@@ -9,9 +10,10 @@
 }
 p{font-family: icon;}
 
-
+.responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;}
+.responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;}
 .balabck{width: 100%;height: 50vh;}
-.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 102vh;}
+.pass1{background-color: rgb(35, 31, 32);width: 100%;height: 120vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
 .l23calp{z-index: 4;position: absolute;top: 16vh;left: 9%;;width: 4.8vh;touch-action:none;}
 .l23calp2{z-index: 2;}
@@ -91,41 +93,25 @@ p{font-family: icon;}
     animation-name: morabj;width: 0.56vh;height: 0.56vh;}
 .acs{z-index: 3;position: absolute;top: 21vh;left: 9%;;width: 6vh;touch-action:none;}
 .acshead{width: 100%;;z-index: 2;position: absolute;top: 29vh;}
+
+
+.butmorsel{width: 55%;height: 7.2vh;;position: absolute;top: 61vh;z-index: 14;left: 42.9%;left: 22.5%;}
 .butmor{width: 55%;height: 7.2vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 61vh;z-index: 3;left: 22.5%;border-radius: 2%;}
-.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 2.35vh;left: 32%;font-weight: bolder;font-family: servic;}
+
+.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 1.9vh;left: 35%;font-weight: bolder;font-family: servic;}
 .padresen{z-index: 2;color: white;font-size: 2em;position: absolute;top: 74vh;left: 32%;}
 .pnumber{z-index: 2;color: white;font-size: 2em;position: absolute;top: 81vh;left: 39%;}
 .social1{position: absolute;top: 89.5vh;font-size: 3em;color: #ffffff;z-index: 3;}
 .telegram1{left: 37%;}
 .insta1{left: 48%;}
 .face1{left: 59%;}
-.charkh{z-index: 2;position: absolute;top: 92vh;width: 100%;height: auto;}
-.pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 86vh;}
+.charkh{position: absolute;top:90vh;width: 100%;height: auto;z-index: 0;}
+.pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 96vh;}
 
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
 .MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
 
-.dast{position: absolute;top: 117.5vh;z-index: 2;left:74%;width: 12%;height: auto;transform: rotate(10deg);}
-.circle001{
-    width: 7.5vh;
-    height: 7.5vh;
-    border: 0.25vh solid rgb(189, 185, 97);
-    border-radius: 50%;
-    box-sizing: border-box;
-    z-index: 2;
-    position: absolute;top: 117vh;left:71%;
-    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 100%, 50% 14%, 0% 100%, 0 0);
-    transform: rotate(90deg);
-}
-.circle010{
-    width: 9vh;
-    height: 9vh;
-    border: 0.25vh solid rgb(189, 185, 97);
-    border-radius: 50%;
-    box-sizing: border-box;
-    z-index: 2;
-    position: absolute;top: 116.25vh;left:69.3%;
-}
+.fasledelete{position: absolute;top: 197vh;left: 25%;height: 5vh;width: 5%;z-index: 7;}
 
 .khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130vh;left: 55%;}
 .star{z-index: 2;position: absolute;top: 129vh;font-size: 2vh;}
@@ -136,12 +122,12 @@ p{font-family: icon;}
 .repetq{top: 149vh;}
 .repeatq{font-size: 2.4em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;left: 6%;}
 .javab1repeat{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 160vh;position: absolute;left: 6%;}
-.repeatq2{top: 171vh;}
-.javab2repeat{top: 175vh;}
-.repeatq3{top: 182vh;}
-.javab3repeat{top: 187vh;}
-.repeatq4{top: 192vh;}
-.javab4repeat{top: 197vh;}
+.repeatq2{top: 174vh;}
+.javab2repeat{top: 178vh;}
+.repeatq3{top: 187vh;}
+.javab3repeat{top: 191vh;}
+.repeatq4{top: 198vh;}
+.javab4repeat{top: 202vh;}
 
 .pass31{background-color: rgb(35, 31, 32);width: 73%;height: 250vh;position: absolute;top: 221vh;left: 13.5%;}
 .pass32{width: 100%;height: 247vh;left: 0;top: 228vh;}
@@ -186,17 +172,21 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 .pnavaboutus{top: 2vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
 .akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
 .peducation{position: absolute;top: 494.5vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
-.madarekavalm1{position: absolute;top: 509vh;width: 30%;height: auto;left: 35%;}
+.madarekavalm1{position: absolute;top: 509vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
 .madarekavalk1{position: absolute;top: 509vh;width: 50%;height: auto;left: 25%;}
-.pmadrakaval{top: 527vh;font-weight: bolder;left: 26%}
-.madarekavalm2{top: 535vh;;}
+
+.pmadrakaval{top: 527vh;font-weight: bolder;left: 18%}
+.madarekavalm2{top: 535vh;}
 .pmadrakdovom{top: 553vh;font-weight: bolder;left: 26%}
-.madarekavalm3{top: 561vh;;}
+.madarekavalm3{top: 561vh;transform: rotate(0deg);}
 .pmadraksevom{top: 579vh;font-weight: bolder;left: 26%}
-.madarekavalm4{top: 587vh;;}
+.madarekavalm4{top: 587vh;transform: rotate(0deg);}
 .pmadrakchar{top: 605vh;font-weight: bolder;left: 26%}
 .ghotbnamad{position: absolute;top: 615vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
+
+.pmadrakavalmast{top: 530vh;left: 27.5%;}
+.pmadrakaval2022{top: 533vh;left: 42.5%;}
 
 .pcontact{top: 637vh;left: 32%;}
 .shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
@@ -383,10 +373,50 @@ transform: rotate(45deg);
     100%{transform: rotate(0deg);}
 }
 
-
-@media screen and (min-width: 767px) and (max-width: 1023px){
-    
+.ghotbnamav{
+    animation-name: ghotbv;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+    @keyframes ghotbv
+{
+    0%{transform: rotate(0deg);}
+    5%{transform: rotate(-5deg);}
+    15%{transform: rotate(5deg);}
+    25%{transform: rotate(-7deg);}
+    35%{transform: rotate(0deg);}
+    40%{transform: rotate(3deg);}
+    45%{transform: rotate(-2deg);}
+    50%{transform: rotate(2deg);}
+    57%{transform: rotate(6deg);}
+    65%{transform: rotate(-7deg);}
+    70%{transform: rotate(-3deg);}
+    80%{transform: rotate(-5deg);}
+   90%{transform: rotate(2deg);}
+   95%{transform: rotate(5deg);}
+   100%{transform: rotate(0deg);}
 }
+
+.ghotbnamadmove{
+    animation-name: ghotbnamadmove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: inherit;
+    animation-delay:0s;
+}
+@keyframes ghotbnamadmove
+{
+    0%{transform: rotate(0deg);}
+    16.66%{transform: rotate(2deg);}
+    33.33%{transform: rotate(-3deg);}
+    49.99%{transform: rotate(0deg);}
+    66.66%{transform: rotate(-3deg);}
+    83.33%{transform: rotate(3deg);}
+   100%{transform: rotate(0deg);}
+}
+
+
 .moveall{
 
         animation-duration: 1.1s;
@@ -394,6 +424,10 @@ transform: rotate(45deg);
         animation-timing-function: inherit;
         animation-delay:0s;}
 
+
+
+        /* Styles for mobile 's' (320px) */
+
         
         
-        
+    

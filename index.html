@@ -15,6 +15,10 @@
 <body id="body">
 <div>
 
+<div class="responsive1">
+</div>
+<div class="responsive2"></div>
+
     <div id="head">
         <div class="pass1"></div>
         <img src="Logoscalp6.png " alt="" class="logo">
@@ -82,9 +86,14 @@
           <div class="pbshadowbala"></div>
           <img src="photo4head11.png" class="acshead">
         </div>
+
+
+
         <div>
-        <div class="butmor">
-          <p class="psing">SING UP</p>
+
+          <div id="butmorsel" class="butmorsel"></div>
+          <div id="butmor" class="butmor">
+          <p id="psing" class="psing">SING UP</p>
         </div>
         <p class="padresen">Iran,Sari,Peyvandi streat</p>
         <p class="pnumber">0911-249-0036</p>
@@ -92,16 +101,15 @@
         <i class="fa-brands fa-square-instagram social1 insta1" ></i>
         <i class="fa-brands fa-facebook social1 face1"></i>
         
-        <img src="rizesh9.png" class="aab">
-        
+<div class="fasledelete"></div>
+        <img src="charkh.png" class="charkh">
         
     </div>
 </div>
 <div id="zirhead">
   <div class="pass2"></div>
   <h2 class="MICROSCALP2">MICRO SCALP</h2>
-  <img src="dast3.png" class="dast">
-  <div class="circle010"></div><div class="circle001"><img src="dast3.png" class="dast"></div>
+
   <img src="khatbozorg3.png" class="khatbozorg">
   <i class="fa-solid fa-star star" style="color: #231f20;"></i>
   <h2 class="whatmicro">What is a Micro Scalp?</h2>
@@ -165,18 +173,25 @@
   <div class="navarabout"><p class="MICROSCALP2 pnavaboutus">ABOUT US</p></div>
   <img src="tabloaboutus01.png" class="akstabloaboutus">
   <p class="peducation">education</p>
-  <img src="madarekavalm1.png" id="madarekavalm1" class="madarekavalm1" ontouchstart="addTouchClassmadarek(1)" ontouchend="endTouchClassmadarek(1)" oncontextmenu="return false";>
-  <p class="javab1repeat pmadrakaval">madrak ghost pigment 2024</p>
-  <img src="madarekavalm1.png" id="madarekavalm1" class="madarekavalm1 madarekavalm2">
-  <p class="javab1repeat pmadrakdovom">madrak ghost pigment 2022</p>
-  <img src="madarekavalm1.png" id="madarekavalm1" class="madarekavalm1 madarekavalm3">
-  <p class="javab1repeat pmadraksevom">madrak ghost pigment 2022</p>
-  <img src="madarekavalm1.png" id="madarekavalm1" class="madarekavalm1 madarekavalm4">
-  <p class="javab1repeat pmadrakchar">madrak ghost pigment 2022</p>
+
+
+
+
+  <img src="DOC-1.png" id="madarekavalm1" class="madarekavalm1" ontouchstart="addTouchClassmadarek(1)" ontouchend="endTouchClassmadarek(1)" oncontextmenu="return false";>
+  <p class="javab1repeat pmadrakaval">Mr. Roozbahani's scalping course,</p><p class="javab1repeat pmadrakaval pmadrakavalmast">Master Ghost Company </p> <p class="javab1repeat pmadrakaval pmadrakaval2022" > 2022</p>
+  <img src="DOC-4.png" id="madarekavalm1" class="madarekavalm1 madarekavalm2">
+  <p class="javab1repeat pmadrakdovom">Mr. Roozbahani's scalping course, <p class="javab1repeat pmadrakaval pmadrakavalmast" style="top: 556vh;">Master Ghost Company </p><p class="javab1repeat pmadrakaval pmadrakaval2022" style="top: 559vh;"> 2024</p></p>
+  <img src="DOC-2.png" id="madarekavalm1" class="madarekavalm1 madarekavalm3">
+  <p class="javab1repeat pmadraksevom">Vocational Technical Certificate</p>
+  <img src="DOC-3.png" id="madarekavalm1" class="madarekavalm1 madarekavalm4">
+  <p class="javab1repeat pmadrakchar">Coaching card</p>
+
 </div>
 <div id="contact">
-  <img src="ghotbnamad1.png" class="ghotbnamad">
-  <img src="ghotbnamav1.png" class="ghotbnamad ghotbnamav">
+  
+  <img id="ghotbnamad" src="ghotbnamad1.png" class="ghotbnamad ghotbnamadmove">
+  <img id="ghotbnamav" src="ghotbnamav1.png" class="ghotbnamad ghotbnamav">
+
   <h2 class="MICROSCALP2 pcontact">CONTACTS</h2>
   <h2 class="shomarecont">0911 249 0036</h2>
   <i class="fa-brands fa-telegram telegram1 social2"></i>
@@ -212,7 +227,10 @@ let initialX = null;
 const bainscalp = document.getElementById('bainscalp');
 const adamr = document.getElementById('adamr');
 const adamch = document.getElementById('adamch');
-
+const butmorselop = document.getElementById('butmorselop')
+const butmorsel = document.getElementById('butmorsel')
+const butmor = document.getElementById('butmor')
+const ghotbv = document.getElementById('ghotbv');
 akssoozan.style.visibility = 'hidden';
 
 
@@ -274,28 +292,6 @@ targetElement.addEventListener('touchmove', (e) => {
         return k;
         }, 400);
     } });
-    function addTouchClassmadarek(y) {
-      if(y == 1){
-      document.getElementById('madarekavalm1').classList.add('animemadarekalav');
-      setTimeout(function() {
-        document.getElementById('madarekavalm1').classList.remove('madarekavalm1');
-        document.getElementById('madarekavalm1').src = "madarekavalk1.jpg";
-        document.getElementById('madarekavalm1').classList.add('madarekavalk1');
-        }, 400);
-      }
-
-
-      }
-      function endTouchClassmadarek(y) {
-        if(y == 1){
-          document.getElementById('madarekavalm1').classList.remove('animemadarekalav');
-
-            document.getElementById('madarekavalm1').classList.remove('madarekavalk1');
-            document.getElementById('madarekavalm1').src = "madarekavalm1.png";
-            document.getElementById('madarekavalm1').classList.add('madarekavalm1');
-
-          }
-      }
 
       function addTouchClassbala(x) {
         if(x == 1){
@@ -391,6 +387,8 @@ targetElement.addEventListener('touchmove', (e) => {
             ghotbcanvasd.classList.add('balamoshghotbdback')
           }
         }
+
+
 </script>
 </body>
 </html>
