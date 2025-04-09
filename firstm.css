@@ -10,8 +10,8 @@
 }
 p{font-family: icon;}
 
-.responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;}
-.responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;}
+.responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;background-color: aqua;}
+.responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;background-color: blue;}
 .balabck{width: 100%;height: 50vh;}
 .pass1{background-color: rgb(35, 31, 32);width: 100%;height: 120vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
@@ -64,10 +64,10 @@ p{font-family: icon;}
 .testr{left: 56.5%;top: 8.3vh;}
 
 
-      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
-      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
-      .abouthover{width: 14.5%;left: 56%;z-index: 99;}
-      .conthover{width: 17%;left: 79%;z-index: 99;}
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .abouthover{width: 14.5%;left: 56%;z-index: 99;background-color: aqua;opacity: 0.2;}
+      .conthover{width: 17%;left: 79%;z-index: 99;background-color: aqua;opacity: 0.2;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
@@ -172,35 +172,33 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 .pnavaboutus{top: 2vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
 .akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
 .peducation{position: absolute;top: 494.5vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
-.madarekavalm1{position: absolute;top: 509vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
-.madarekavalk1{position: absolute;top: 509vh;width: 50%;height: auto;left: 25%;}
+.madarekavalm1{position: absolute;top: 503vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
+.madarekavalk1{position: absolute;top: 503vh;width: 50%;height: auto;left: 25%;}
 
-.pmadrakaval{top: 527vh;font-weight: bolder;left: 18%}
-.madarekavalm2{top: 535vh;}
-.pmadrakdovom{top: 553vh;font-weight: bolder;left: 26%}
-.madarekavalm3{top: 561vh;transform: rotate(0deg);}
-.pmadraksevom{top: 579vh;font-weight: bolder;left: 26%}
-.madarekavalm4{top: 587vh;transform: rotate(0deg);}
-.pmadrakchar{top: 605vh;font-weight: bolder;left: 26%}
-.ghotbnamad{position: absolute;top: 615vh;width: 45%;height: auto;left:27.5%;}
+.pmadrakaval{top: 521vh;font-weight: bolder;left: 18%}
+.madarekavalm2{top: 529vh;}
+.pmadrakdovom{top: 547vh;font-weight: bolder;left: 18%}
+.madarekavalm3{top: 556vh;transform: rotate(0deg);}
+.pmadraksevom{top: 575vh;font-weight: bolder;left: 20%}
+.madarekavalm4{top: 582vh;transform: rotate(0deg);}
+.pmadrakchar{top: 602vh;font-weight: bolder;left: 36%}
+.ghotbnamad{position: absolute;top: 612vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
 
-.pmadrakavalmast{top: 530vh;left: 27.5%;}
-.pmadrakaval2022{top: 533vh;left: 42.5%;}
+.pmadrakavalmast{top: 524vh;left: 27.5%;}
+.pmadrakaval2022{top: 527vh;left: 42.5%;}
 
 .pcontact{top: 637vh;left: 32%;}
 .shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
 .social2{position: absolute;top: 660vh;font-size: 3vh;color: #231f20;}
-.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 30%;position: absolute;}
-.khatzirsocial21{left: 46%;}
-.khatzirsocial22{left: 62%;}
+.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 37%;position: absolute;}
+.khatzirsocial21{left: 48%;}
+.khatzirsocial22{left: 59%;}
 .map{position: absolute;top: 672vh;width: 100%;height: auto;}
 .zarbdarcont11{position: absolute;top: 690vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
 .zarbdarcont12{transform: rotate(-45deg);}
 .maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
 .khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
-
-
 
 .moveleft-left{
     overflow-x: hidden;
