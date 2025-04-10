@@ -10,8 +10,6 @@
 }
 p{font-family: icon;}
 
-.responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;background-color: aqua;}
-.responsive2{position: absolute;top: 15.5vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;background-color: blue;}
 .balabck{width: 100%;height: 50vh;}
 .pass1{background-color: rgb(35, 31, 32);width: 100%;height: 120vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
@@ -64,10 +62,10 @@ p{font-family: icon;}
 .testr{left: 56.5%;top: 8.3vh;}
 
 
-      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;background-color: aqua;opacity: 0.2;}
-      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;background-color: aqua;opacity: 0.2;}
-      .abouthover{width: 14.5%;left: 56%;z-index: 99;background-color: aqua;opacity: 0.2;}
-      .conthover{width: 17%;left: 79%;z-index: 99;background-color: aqua;opacity: 0.2;}
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
+      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
+      .abouthover{width: 14.5%;left: 56%;z-index: 99;}
+      .conthover{width: 17%;left: 79%;z-index: 99;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
