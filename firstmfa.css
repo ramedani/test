@@ -141,7 +141,7 @@ p{font-family: icon;}
 .feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.8vh;}
 .circlematerialr{right:1%;}
 .feleshmaterialr{left: 13%;transform: rotate(180deg);}
-.organicmaterial{top: 295vh;left: 27%;color: rgb(255, 255, 255);}
+.organicmaterial{top: 295vh;right: 27%;color: rgb(255, 255, 255);}
 .organicmaterialcolor{top: 300vh;left: 39%;color: rgb(255, 255, 255);}
 .rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
 .rangpeaknevo{left: 50%;top: 254vh;}
