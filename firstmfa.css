@@ -10,8 +10,6 @@
 }
 p{font-family: icon;}
 
-.responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;}
-.responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;}
 .balabck{width: 100%;height: 50vh;}
 .pass1{background-color: rgb(35, 31, 32);width: 100%;height: 120vh;}
 .logo{z-index: 1;top: 1vh;position: absolute;width: 23%;left: 38.5%;}
@@ -36,18 +34,18 @@ p{font-family: icon;}
       }
       .my-svg-image {
         z-index:2;
-        width: 19.71%
+        width: 20%
           }
           .Layer_1{
             position: absolute;
-            top: 8.5vh;
+            top: 9vh;
             left: 59%;
             z-index: 15;
           }
           .my-svg-image2 {
 
             z-index: 99;
-            width: 6.98%; 
+            width: 7.8%; 
           }
           .Layer_ghotbv2{    position: absolute;
             top: 16vh; 
@@ -56,29 +54,29 @@ p{font-family: icon;}
         }
         .image-ghotbv{
             z-index:2;
-            width: 8.95%; 
+            width: 10%; 
         }
           #adamv{z-index:2;}
           .Layer_2{position: absolute;top: 16.9vh; left: 59%; z-index: 15;}
-          .testch{left: 61.5%;top: 8.7vh;}
-.testr{left: 56.1%;top: 7.5vh;}
+          .testch{left: 61.5%;top: 9.3vh;}
+.testr{left: 56.5%;top: 8.3vh;}
 
 
-      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
-      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
-      .abouthover{width: 14.5%;left: 56%;z-index: 99;}
-      .conthover{width: 17%;left: 79%;z-index: 99;}
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .abouthover{width: 14.5%;left: 56%;z-index: 99;background-color: aqua;opacity: 0.2;}
+      .conthover{width: 17%;left: 79%;z-index: 99;background-color: aqua;opacity: 0.2;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
 
-.iconbala{color: #bdb94f;z-index:3;position: absolute;top: 16vh;;height: auto;left: 35%;width: 6.27%;}
+.iconbala{color: #bdb94f;z-index:3;position: absolute;top: 16vh;;height: auto;left: 35%;width: 7%;}
 .pbala{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;}
 .peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 3vh;right: 2vh;font-family: icon;}
 
-.pbalazi{font-size: 1.8vh;color: white;z-index: 5;position: absolute;top: 22vh;font-family: icon;}
+.pbalazi{font-size: 1.5vh;color: white;z-index: 5;position: absolute;top: 22vh;font-family: icon;}
 .pms{left:5%}
-.pmat{left:32%}
+.pmat{left:31.5%}
 .pabout{left:56%}
 .pcont{left:79%}
 .morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 25vh;border-radius: 50%}
@@ -131,7 +129,7 @@ p{font-family: icon;}
 
 .pass31{background-color: rgb(35, 31, 32);width: 73%;height: 250vh;position: absolute;top: 221vh;left: 13.5%;}
 .pass32{width: 100%;height: 247vh;left: 0;top: 228vh;}
-.tarhbalamaterial{position: absolute;top: 214.5vh;z-index: 2;width: 32%;height: auto;left: 34%;}
+.tarhbalamaterial{position: absolute;top: 214.6vh;z-index: 2;width: 32%;height: auto;left: 34%;}
 .khatsorkh{z-index: 1;width: 17%;position: absolute;left: 26%;top: 230vh;}
 .khatsorkh2{left: 58.5%;transform: rotate(180deg);}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
@@ -164,24 +162,24 @@ p{font-family: icon;}
 .graydelete{width: 100%;height: 8vh;z-index: 1;background-color: rgb(192, 192, 192);position: absolute;top: 469vh;background-color: black;}
 
 .pass4{background-color: #ffffff;width: 100%;height: 250vh;position: absolute;top: 480vh;}
-.editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;
+.editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;transform: rotate(-2deg);
     border-top-left-radius: 19%;}
-.editpass42{width: 50%;left: 0;
-border-top-right-radius: 19%;    border-top-left-radius: 0%;}
+.editpass42{background-color: rgb(255, 255, 255);width: 50%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 0;
+border-top-right-radius: 19%;transform: rotate(2deg);}
 .navarabout{background-color: rgb(35, 31, 32);width: 100%;height: 6.5vh;position: absolute;top: 485.5vh;z-index: 3;}
-.pnavaboutus{top: 1vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
+.pnavaboutus{top: 2vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
 .akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
-.peducation{position: absolute;top: 495vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
-.madarekavalm1{position: absolute;top: 500vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
-.madarekavalk1{position: absolute;top: 500vh;width: 50%;height: auto;left: 25%;}
+.peducation{position: absolute;top: 494.5vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
+.madarekavalm1{position: absolute;top: 503vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
+.madarekavalk1{position: absolute;top: 503vh;width: 50%;height: auto;left: 25%;}
 
 .pmadrakaval{top: 521vh;font-weight: bolder;left: 18%}
-.madarekavalm2{top: 526vh;}
-.pmadrakdovom{top: 550vh;font-weight: bolder;left: 18%}
-.madarekavalm3{top: 562vh;transform: rotate(0deg);}
-.pmadraksevom{top: 587vh;font-weight: bolder;left: 20%}
-.madarekavalm4{top: 590vh;transform: rotate(0deg);}
-.pmadrakchar{top: 612vh;font-weight: bolder;left: 36%}
+.madarekavalm2{top: 529vh;}
+.pmadrakdovom{top: 547vh;font-weight: bolder;left: 18%}
+.madarekavalm3{top: 556vh;transform: rotate(0deg);}
+.pmadraksevom{top: 575vh;font-weight: bolder;left: 20%}
+.madarekavalm4{top: 582vh;transform: rotate(0deg);}
+.pmadrakchar{top: 602vh;font-weight: bolder;left: 36%}
 .ghotbnamad{position: absolute;top: 612vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
 
@@ -195,7 +193,7 @@ border-top-right-radius: 19%;    border-top-left-radius: 0%;}
 .khatzirsocial21{left: 48%;}
 .khatzirsocial22{left: 59%;}
 .map{position: absolute;top: 672vh;width: 100%;height: auto;}
-.zarbdarcont11{position: absolute;top: 693vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
+.zarbdarcont11{position: absolute;top: 690vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
 .zarbdarcont12{transform: rotate(-45deg);}
 .maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
 .khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
@@ -306,33 +304,33 @@ color: rgb(123, 121, 120);}
     animation-name: moveadamch;
 
 }    @keyframes moveadamch{
-    0%{left: 61.5%;top: 6.7vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top: 6.5vh;}
+    0%{left: 61.5%;top: 9.3vh;}
+    60%{left: 59%;top: 9vh;}
+    100%{left: 59%;top: 9vh;}
 }
 .moveadamr{
     animation-name: moveadamr;
 
 }    @keyframes moveadamr{
-    0%{left: 56.1%;top: 5.5vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top:6.5vh;}
+    0%{left: 56.5%;top: 8.3vh;}
+    60%{left: 59%;top: 9vh;}
+    100%{left: 59%;top:9vh;}
 }
 .moveadamchback{
     animation-name: moveadamchback;
 
 }    @keyframes moveadamchback{
-    0%{left: 59%;top: 6.5vh;}
-    60%{left: 61.5%;top: 6.7vh;}
-    100%{left: 61.5%;top: 6.7vh;}
+    0%{left: 59%;top: 9vh;}
+    60%{left: 61.5%;top: 9.3vh;}
+    100%{left: 61.5%;top: 9.3vh;}
 }
 .moveadamrback{
     animation-name: moveadamrback;
 
 }    @keyframes moveadamrback{
-    0%{left: 59%;top:6.5vh;}
-    60%{left: 56.1%;top: 5.5vh;}
-    100%{left: 56.1%;top: 5.5vh;}
+    0%{left: 59%;top:9vh;}
+    60%{left: 56.5%;top: 8.3vh;}
+    100%{left: 56.5%;top: 8.3vh;}
 }
 .balamoshghotbv{
     animation-name: balamoshghotbv;

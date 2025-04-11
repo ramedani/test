@@ -40,7 +40,7 @@ p{font-family: icon;}
           }
           .Layer_1{
             position: absolute;
-            top: 8.5vh;
+            top: 5vh;
             left: 59%;
             z-index: 15;
           }
@@ -60,14 +60,14 @@ p{font-family: icon;}
         }
           #adamv{z-index:2;}
           .Layer_2{position: absolute;top: 16.9vh; left: 59%; z-index: 15;}
-          .testch{left: 61.5%;top: 8.7vh;}
-.testr{left: 56.1%;top: 7.5vh;}
+          .testch{left: 61.5%;top: 5.2vh;}
+.testr{left: 56.1%;top: 4vh;}
 
 
-      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
-      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;}
-      .abouthover{width: 14.5%;left: 56%;z-index: 99;}
-      .conthover{width: 17%;left: 79%;z-index: 99;}
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;background-color: aqua;opacity: 0.2;}
+      .abouthover{width: 14.5%;left: 56%;z-index: 99;background-color: aqua;opacity: 0.2;}
+      .conthover{width: 17%;left: 79%;z-index: 99;background-color: aqua;opacity: 0.2;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
@@ -111,7 +111,7 @@ p{font-family: icon;}
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
 .MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
 
-.fasledelete{position: absolute;top: 197vh;left: 25%;height: 5vh;width: 5%;z-index: 7;}
+.fasledelete{position: absolute;top: 188vh;left: 25%;height: 4.5vh;width: 5%;z-index: 7;}
 
 .khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130vh;left: 55%;}
 .star{z-index: 2;position: absolute;top: 129vh;font-size: 2vh;}
@@ -122,16 +122,16 @@ p{font-family: icon;}
 .repetq{top: 149vh;}
 .repeatq{font-size: 2.4em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;left: 6%;}
 .javab1repeat{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 160vh;position: absolute;left: 6%;}
-.repeatq2{top: 174vh;}
-.javab2repeat{top: 178vh;}
-.repeatq3{top: 187vh;}
-.javab3repeat{top: 191vh;}
-.repeatq4{top: 198vh;}
-.javab4repeat{top: 202vh;}
+.repeatq2{top: 176vh;}
+.javab2repeat{top: 180vh;}
+.repeatq3{top: 191vh;}
+.javab3repeat{top: 195vh;}
+.repeatq4{top: 202vh;}
+.javab4repeat{top: 206vh;}
 
 .pass31{background-color: rgb(35, 31, 32);width: 73%;height: 250vh;position: absolute;top: 221vh;left: 13.5%;}
 .pass32{width: 100%;height: 247vh;left: 0;top: 228vh;}
-.tarhbalamaterial{position: absolute;top: 214.5vh;z-index: 2;width: 32%;height: auto;left: 34%;}
+.tarhbalamaterial{position: absolute;top: 213vh;z-index: 2;width: 32%;height: auto;left: 34%;}
 .khatsorkh{z-index: 1;width: 17%;position: absolute;left: 26%;top: 230vh;}
 .khatsorkh2{left: 58.5%;transform: rotate(180deg);}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
@@ -163,8 +163,8 @@ p{font-family: icon;}
 .akszeirfelmat{z-index: 2;position: absolute;top: 429vh;width: 100%;height: auto;}
 .graydelete{width: 100%;height: 8vh;z-index: 1;background-color: rgb(192, 192, 192);position: absolute;top: 469vh;background-color: black;}
 
-.pass4{background-color: #ffffff;width: 100%;height: 250vh;position: absolute;top: 480vh;}
-.editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;
+.pass4{background-color: #ffffff;width: 100%;height: 276vh;position: absolute;top: 480vh;}
+.editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 479vh;z-index: 2;left: 49.9%;
     border-top-left-radius: 19%;}
 .editpass42{width: 50%;left: 0;
 border-top-right-radius: 19%;    border-top-left-radius: 0%;}
@@ -175,30 +175,30 @@ border-top-right-radius: 19%;    border-top-left-radius: 0%;}
 .madarekavalm1{position: absolute;top: 500vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
 .madarekavalk1{position: absolute;top: 500vh;width: 50%;height: auto;left: 25%;}
 
-.pmadrakaval{top: 521vh;font-weight: bolder;left: 18%}
-.madarekavalm2{top: 526vh;}
-.pmadrakdovom{top: 550vh;font-weight: bolder;left: 18%}
-.madarekavalm3{top: 562vh;transform: rotate(0deg);}
-.pmadraksevom{top: 587vh;font-weight: bolder;left: 20%}
-.madarekavalm4{top: 590vh;transform: rotate(0deg);}
-.pmadrakchar{top: 612vh;font-weight: bolder;left: 36%}
-.ghotbnamad{position: absolute;top: 612vh;width: 45%;height: auto;left:27.5%;}
+.pmadrakaval{top: 524vh;font-weight: bolder;left: 18%}
+.madarekavalm2{top: 531vh;}
+.pmadrakdovom{top: 556vh;font-weight: bolder;left: 18%}
+.madarekavalm3{top: 567vh;transform: rotate(0deg);}
+.pmadraksevom{top: 594vh;font-weight: bolder;left: 20%}
+.madarekavalm4{top: 601vh;transform: rotate(0deg);}
+.pmadrakchar{top: 627vh;font-weight: bolder;left: 36%}
+.ghotbnamad{position: absolute;top: 636vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
 
-.pmadrakavalmast{top: 524vh;left: 27.5%;}
-.pmadrakaval2022{top: 527vh;left: 42.5%;}
+.pmadrakavalmast{top: 527vh;left: 27.5%;}
+.pmadrakaval2022{top: 530vh;left: 42.5%;}
 
-.pcontact{top: 637vh;left: 32%;}
-.shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
-.social2{position: absolute;top: 660vh;font-size: 3vh;color: #231f20;}
-.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 37%;position: absolute;}
+.pcontact{top: 666vh;left: 32%;}
+.shomarecont{top: 676vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
+.social2{position: absolute;top: 685vh;font-size: 3vh;color: #231f20;}
+.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 689.5vh;left: 37%;position: absolute;}
 .khatzirsocial21{left: 48%;}
 .khatzirsocial22{left: 59%;}
-.map{position: absolute;top: 672vh;width: 100%;height: auto;}
-.zarbdarcont11{position: absolute;top: 693vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
+.map{position: absolute;top: 695vh;width: 100%;height: auto;}
+.zarbdarcont11{position: absolute;top: 719vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
 .zarbdarcont12{transform: rotate(-45deg);}
-.maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
-.khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
+.maplogo{position: absolute;top: 747vh;width: 11%;height: auto;left: 44.5%;}
+.khatzirmap{top: 754.3vh;left: 44.75%;width: 10.5%;}
 
 .moveleft-left{
     overflow-x: hidden;
@@ -306,33 +306,33 @@ color: rgb(123, 121, 120);}
     animation-name: moveadamch;
 
 }    @keyframes moveadamch{
-    0%{left: 61.5%;top: 6.7vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top: 6.5vh;}
+    0%{left: 61.5%;top: 5.2vh;}
+    60%{left: 59%;top: 5vh;}
+    100%{left: 59%;top: 5vh;}
 }
 .moveadamr{
     animation-name: moveadamr;
 
 }    @keyframes moveadamr{
-    0%{left: 56.1%;top: 5.5vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top:6.5vh;}
+    0%{left: 56.1%;top: 4vh;}
+    60%{left: 59%;top: 5vh;}
+    100%{left: 59%;top:5vh;}
 }
 .moveadamchback{
     animation-name: moveadamchback;
 
 }    @keyframes moveadamchback{
-    0%{left: 59%;top: 6.5vh;}
-    60%{left: 61.5%;top: 6.7vh;}
-    100%{left: 61.5%;top: 6.7vh;}
+    0%{left: 59%;top: 5vh;}
+    60%{left: 61.5%;top: 5.2vh;}
+    100%{left: 61.5%;top: 5.2vh;}
 }
 .moveadamrback{
     animation-name: moveadamrback;
 
 }    @keyframes moveadamrback{
-    0%{left: 59%;top:6.5vh;}
-    60%{left: 56.1%;top: 5.5vh;}
-    100%{left: 56.1%;top: 5.5vh;}
+    0%{left: 59%;top:5vh;}
+    60%{left: 56.1%;top: 4vh;}
+    100%{left: 56.1%;top: 4vh;}
 }
 .balamoshghotbv{
     animation-name: balamoshghotbv;
