@@ -62,10 +62,10 @@ p{font-family: icon;}
 .testr{left: 56.5%;top: 8.3vh;}
 
 
-      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;background-color: aqua;opacity: 0.2;}
-      .drophover{width: 12.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 32%;z-index: 13;background-color: aqua;opacity: 0.2;}
-      .abouthover{width: 14.5%;left: 56%;z-index: 99;background-color: aqua;opacity: 0.2;}
-      .conthover{width: 17%;left: 79%;z-index: 99;background-color: aqua;opacity: 0.2;}
+      .scalphover{left: 5%;top: 16.2vh;width: 17.6%;;height: 9.5vh;position: absolute;z-index: 13;}
+      .drophover{width: 13.7%;;height: 9.5vh;;position: absolute;top: 16vh;left: 31.5%;z-index: 13;}
+      .abouthover{width: 11.5%;left: 57.5%;z-index: 99;}
+      .conthover{width: 14%;left: 80.5%;z-index: 99;}
 .bainscalp{width: 7%;height: 5vh;background-color:rgb(35, 31, 32);position: absolute;top: 13vh;left: 4%;z-index: 3;transform: rotate(135deg);}
 .bainscalpsel{top: 7.8vh;left: 28.7%;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
@@ -75,10 +75,10 @@ p{font-family: icon;}
 .peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 3vh;right: 2vh;font-family: icon;}
 
 .pbalazi{font-size: 1.5vh;color: white;z-index: 5;position: absolute;top: 22vh;font-family: icon;}
-.pms{left:5%}
-.pmat{left:31.5%}
-.pabout{left:56%}
-.pcont{left:79%}
+.pms{left:5.5%}
+.pmat{left:31%}
+.pabout{left:58.3%}
+.pcont{right: 6.5%;}
 .morab{z-index: 4;position: absolute;transform: rotate(45deg);width: 0.3vh;height: 0.3vh;background-color: rgb(97, 94, 51);top: 25vh;border-radius: 50%}
 .morab1{top: 15vh;right: 5%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
 .morab2{top: 15vh;left: 5%;height: 0.7vh;width: 0.7vh;background-color: rgb(189, 185, 97);border-radius: 0%}
@@ -96,8 +96,8 @@ p{font-family: icon;}
 .butmorsel{width: 55%;height: 7.2vh;;position: absolute;top: 61vh;z-index: 14;left: 42.9%;left: 22.5%;}
 .butmor{width: 55%;height: 7.2vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 61vh;z-index: 3;left: 22.5%;border-radius: 2%;}
 
-.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 1.9vh;left: 35%;font-weight: bolder;font-family: servic;}
-.padresen{z-index: 2;color: white;font-size: 2em;position: absolute;top: 74vh;left: 32%;}
+.psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 1.9vh;left: 17.5%;font-weight: bolder;font-family: servic;}
+.padresen{z-index: 2;color: white;font-size: 2em;position: absolute;top: 74vh;left: 35%;}
 .pnumber{z-index: 2;color: white;font-size: 2em;position: absolute;top: 81vh;left: 39%;}
 .social1{position: absolute;top: 89.5vh;font-size: 3em;color: #ffffff;z-index: 3;}
 .telegram1{left: 37%;}
@@ -107,18 +107,18 @@ p{font-family: icon;}
 .pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 96vh;}
 
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
-.MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
+.MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;right: 30%;font-family: servic;color: rgb(35, 31, 32);}
 
 .fasledelete{position: absolute;top: 197vh;left: 25%;height: 5vh;width: 5%;z-index: 7;}
 
-.khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130vh;left: 55%;}
-.star{z-index: 2;position: absolute;top: 129vh;font-size: 2vh;}
-.whatmicro{position: absolute;font-size: 2.9em;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 129vh;left: 6%;}
+.khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130vh;right: 55%;transform: rotate(180deg);}
+.star{z-index: 2;position: absolute;top: 129vh;font-size: 2vh;right: 0;}
+.whatmicro{position: absolute;font-size: 2.9em;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 129vh;right: 8%;}
 .star2{top: 149vh;}
 .whatisjav{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 135vh;position: absolute;left: 6%;}
 .khatbozorg2{top: 150vh;}
 .repetq{top: 149vh;}
-.repeatq{font-size: 2.4em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;left: 6%;}
+.repeatq{font-size: 2.4em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;right: 6%;}
 .javab1repeat{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 160vh;position: absolute;left: 6%;}
 .repeatq2{top: 174vh;}
 .javab2repeat{top: 178vh;}
