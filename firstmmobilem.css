@@ -306,33 +306,33 @@ color: rgb(123, 121, 120);}
     animation-name: moveadamch;
 
 }    @keyframes moveadamch{
-    0%{left: 61.5%;top: 6.7vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top: 6.5vh;}
+    0%{left: 61.5%;top: 8.7vh;}
+    60%{left: 59%;top: 8.5vh;}
+    100%{left: 59%;top: 8.5vh;}
 }
 .moveadamr{
     animation-name: moveadamr;
 
 }    @keyframes moveadamr{
-    0%{left: 56.1%;top: 5.5vh;}
-    60%{left: 59%;top: 6.5vh;}
-    100%{left: 59%;top:6.5vh;}
+    0%{left: 56.1%;top: 7.5vh;}
+    60%{left: 59%;top: 8.5vh;}
+    100%{left: 59%;top:8.5vh;}
 }
 .moveadamchback{
     animation-name: moveadamchback;
 
 }    @keyframes moveadamchback{
-    0%{left: 59%;top: 6.5vh;}
-    60%{left: 61.5%;top: 6.7vh;}
-    100%{left: 61.5%;top: 6.7vh;}
+    0%{left: 59%;top: 8.5vh;}
+    60%{left: 61.5%;top:8.7vh;}
+    100%{left: 61.5%;top: 8.7vh;}
 }
 .moveadamrback{
     animation-name: moveadamrback;
 
 }    @keyframes moveadamrback{
-    0%{left: 59%;top:6.5vh;}
-    60%{left: 56.1%;top: 5.5vh;}
-    100%{left: 56.1%;top: 5.5vh;}
+    0%{left: 59%;top:8.5vh;}
+    60%{left: 56.1%;top: 7.5vh;}
+    100%{left: 56.1%;top: 7.5vh;}
 }
 .balamoshghotbv{
     animation-name: balamoshghotbv;

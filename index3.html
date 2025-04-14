@@ -3,14 +3,46 @@
 <link rel="stylesheet" href="first3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 <script>
-    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|Windows Phone|Xiaomi/i.test(navigator.userAgent)) {
-      // Device is mobile
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini|Mobile|mobile|Windows Phone|Xiaomi/i.test(navigator.userAgent)) {
+    // mobile
+    if (/iPhone|iPad|iPod|/i.test(navigator.userAgent)){
+      //window.location.href = 'http://192.168.37.100/ramedani/indexmobilel.html';
+      const screenWidth = window.innerWidth;
+      const screenHeight = window.innerHeight;
+      const nesb = screenHeight / screenWidth
+let closestNumber = findClosestNumber(nesb, [2.1, 1.7918367346938775, 1.579591836734694,]);
+function findClosestNumber(num, numberArray) {
+    let closest = null;
+    let minDiff = Infinity;
 
-      window.location.href = 'http://192.168.37.100/ramedani/index.html';
-    } else {
-      // Redirect to another page if it's not a mobile device
-      
+  
+    for (let i = 0; i < numberArray.length; i++) {
+        let diff = Math.abs(num - numberArray[i]);
+        if (diff < minDiff) {
+            minDiff = diff;
+            closest = numberArray[i];
+        }
     }
+    return closest;
+}
+if (closestNumber == 2.1){
+  window.location.href = 'https://ramedani.github.io/test/index.html';
+}
+else if (closestNumber == 1.7918367346938775){
+  window.location.href = 'https://ramedani.github.io/test/indexmobilem.html';
+}
+else if (closestNumber == 1.579591836734694){
+  window.location.href = 'https://ramedani.github.io/test/indexmobileL.html';
+}
+    }
+    
+  } else {
+    
+
+
+  }
+console.log(2.1 / 1.7918367346938775)
+
   </script>
 </head>
 <body id="body">
@@ -39,28 +71,11 @@
 </div>
 <div id="bainscalp" class="bainscalp"></div>
 <div class="drophover scalphover" onmouseover="scalpmoshs()" onmouseout="scalpmoshsout()"></div>
-<div class="jsvgscalpbalap">
-<?xml version="0.2" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="0.8" class="Layer_scalpbalap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 414 414" style="enable-background:new 0 0 414 414;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#BDBB50;}
-</style>
-<image style="overflow:visible;enable-background:new    ;" class="image-scalpbalap" width="225" height="225" xlink:href="l23calp1.png"  transform="matrix(1.84 0 0 1.84 0 0)">
-</image> 
-<path class="st0" d="M204.1,197.5c64.1-18.1,98.7-64.1,91.4-95.5c-7.2-31-54.7-45.2-80.2-48c-46.8-5.1-82.3,21.2-91.7,28.1
-	c-14,10.4-22.4,20.9-25,24.3c-16.8,21.7-21.7,43.3-23.2,51.3c-4.7,24.5-0.3,43.7,2.6,55.7c6.2,26,18,45.2,27.1,57.3"/>
-</svg>
-</div>
 
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" class="Layer_scalpbalakh" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 414 414" style="enable-background:new 0 0 414 414;" xml:space="preserve">
-<image style="overflow:visible;"  class="image-scalpbalakh" width="225" height="225" xlink:href="l23calp1.png"  transform="matrix(1.84 0 0 1.84 0 0)">
-</image>
-</svg>
+<img src="l23calp1.png" class="l23calp">
+
+<img src="kamelmicrop.png" class="l23calp l23calp2 ">
+
 
 <canvas id="adamvedit" width="500" height="500"></canvas>
 <canvas id="ghotbcanvasv" width="227" height="227"></canvas>
@@ -453,6 +468,9 @@ function dropmoshs(){
   baindrop.classList.add('movebaindrop')
   pmat.classList.add('pmatc')
   morabk2.classList.add('morabkselec2');
+  baindrop.classList.add('moveall')
+  pmat.classList.add('moveall')
+  morabk2.classList.add('moveall');
 
 }
 function dropmoshsout(){
@@ -517,6 +535,10 @@ function aboutmoshs(){
   adamr.classList.remove('testr');
   adamch.classList.add('moveadamch');
   adamr.classList.add('moveadamr');
+  morabk3.classList.add('moveall');
+  pabout.classList.add('moveall');
+  adamch.classList.add('moveall');
+  adamr.classList.add('moveall');
   
 }
 function aboutmoshsout(){
@@ -540,6 +562,10 @@ function scalpmoshs(){
   pms.classList.add('pmatc');
   bainscalp.classList.add('bainscalpmove')
   bainscalp.classList.add('bainscalpsel')
+  morabk1.classList.add('moveall');
+  pms.classList.add('moveall');
+  bainscalp.classList.add('moveall')
+
 }
 function scalpmoshsout(){
   bainscalp.classList.remove('bainscalpmove')
@@ -558,6 +584,12 @@ function singupmoshs(){
   butmorselop.classList.add('butmorselopmove')
   butmorselop.classList.add('butmorselop2')
   butmorsel.classList.add('butmorselop2')
+  
+
+  butmor.classList.add('moveall')
+  butmorselop.classList.add('moveall')
+
+  butmorsel.classList.add('moveall')
 }
 function singupmoshsout(){
   butmorsel.classList.remove('butmorselop2')
@@ -574,6 +606,9 @@ function telbalamoshs(){
   ptelbalamosh.classList.add('pmatc');
   telbalamoshskhat.classList.add('telbalamoshskhat')
   telbalamoshskhat.classList.add('telbalamoshskhatmove')
+
+  ptelbalamosh.classList.add('moveall');
+  telbalamoshskhat.classList.add('moveall')
 
 }
 function telbalamoshsout(){
@@ -595,6 +630,10 @@ function insbalamoshs(){
   insbalamoshskhat.classList.add('insbalamoshskhat')
   insbalamoshskhat.classList.add('insbalamoshskhatmove')
 
+  pinsbalamosh.classList.add('moveall');
+  insbalamoshskhat.classList.add('moveall')
+
+
 }
 function insbalamoshsout(){
 
@@ -612,6 +651,10 @@ function whatsbalamoshs(){
   pwhatsbalamosh.classList.add('pmatc');
   whatsbalamoshskhat.classList.add('whatsbalamoshskhat')
   whatsbalamoshskhat.classList.add('whatsbalamoshskhatmove')
+
+  pwhatsbalamosh.classList.add('moveall');
+  whatsbalamoshskhat.classList.add('moveall')
+
 
 
 }
@@ -632,6 +675,7 @@ function opengooglemoshs(){
   popenmap.style.opacity='0.4'
   popenmapgoogle.style.opacity='0.4'
   khatzirmapselec.classList.add('khatzirmapselecmove')
+  khatzirmapselec.classList.add('moveall')
 }
 
 function opengooglemoshsout(){
@@ -646,6 +690,8 @@ function telpainmoshs(){
   ptelpain.classList.remove('pmatcforbback')
   ptelpain.classList.add('pmatcforb')
   khatzirsocial2sel.classList.add('khatzirsocial2sel')
+  ptelpain.classList.add('moveall')
+  khatzirsocial2sel.classList.add('moveall')
 
 }
 function telpainmoshsout(){
@@ -659,6 +705,8 @@ function inspainmoshs(){
   pinspain.classList.remove('pmatcforbback')
   pinspain.classList.add('pmatcforb')
   khatzirsocial21sel.classList.add('khatzirsocial21sel')
+  pinspain.classList.add('moveall')
+  khatzirsocial21sel.classList.add('moveall')
 
 }
 function inspainmoshsout(){
@@ -672,6 +720,8 @@ function whatpainmoshs(){
   pwhatpain.classList.remove('pmatcforbback')
   pwhatpain.classList.add('pmatcforb')
   khatzirsocial22sel.classList.add('khatzirsocial22sel')
+  pwhatpain.classList.add('moveall')
+  khatzirsocial22sel.classList.add('moveall')
 
 }
 function whatpainmoshsout(){
@@ -689,6 +739,11 @@ function contmoshs(){
   morabk4.classList.add('morabkselec2');
   ghotbcanvasv.classList.add('balamoshghotbv')
   ghotbcanvasd.classList.add('balamoshghotbd')
+
+  pcont.classList.add('moveall')
+  morabk4.classList.add('moveall');
+  ghotbcanvasv.classList.add('moveall')
+  ghotbcanvasd.classList.add('moveall')
 }
 function contmoshsout(){
   ghotbcanvasd.classList.remove('balamoshghotbd')
