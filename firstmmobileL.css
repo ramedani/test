@@ -9,7 +9,10 @@
     src: url(Swiss721BoldBT.ttf);
 }
 p{font-family: icon;}
-body{overflow-x: hidden;}
+
+html{  font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;}
 .responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;}
 .responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;}
 .balabck{width: 100%;height: 50vh;}
@@ -428,4 +431,12 @@ transform: rotate(45deg);
 
         
         
-    
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+          }
+          
+          img, table {
+            max-width: 100%;
+            height: auto;
+          }
