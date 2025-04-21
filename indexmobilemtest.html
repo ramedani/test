@@ -402,6 +402,13 @@ targetElement.addEventListener('touchmove', (e) => {
         }
 
 
+
+        function setRealVw() {
+          document.documentElement.style.setProperty('--real-vw', window.innerWidth + 'px');
+        }
+        window.addEventListener('resize', setRealVw);
+        window.addEventListener('orientationchange', setRealVw);
+        setRealVw();
 </script>
 </body>
 </html>
