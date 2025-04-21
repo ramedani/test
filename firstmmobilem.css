@@ -1,5 +1,6 @@
 
-*{margin: 0%;padding: 0%;box-sizing: border-box;}
+*{margin: 0%;padding: 0%;box-sizing: border-box;outline: 1px dotted red !important;}
+
 @font-face {
     font-family: servic;
     src: url(FengardoNeue_Black.otf);
