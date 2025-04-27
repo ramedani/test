@@ -1,6 +1,5 @@
 
-*{margin: 0%;padding: 0%;box-sizing: border-box;outline: 1px dotted red !important;}
-
+*{margin: 0%;padding: 0%;box-sizing: border-box;}
 @font-face {
     font-family: servic;
     src: url(FengardoNeue_Black.otf);
@@ -10,7 +9,7 @@
     src: url(Swiss721BoldBT.ttf);
 }
 p{font-family: icon;}
-
+body{  overflow-x: hidden;}
 .responsive1{position: absolute;top: 100px;width: 10%;height: 10vh;z-index: 99;}
 .responsive2{position: absolute;top: 15.2vh;width: 10%;height: 10vh;z-index: 99;opacity: 0.4;}
 .balabck{width: 100%;height: 50vh;}
@@ -74,6 +73,9 @@ p{font-family: icon;}
 .baindrop{position: absolute;background-color: rgb(35, 31, 32);top: 16vh;width: 9%;height: 6vh;z-index: 2;left: 34%;}
 
 .iconbala{color: #bdb94f;z-index:3;position: absolute;top: 16vh;;height: auto;left: 35%;width: 6.27%;}
+.adamv01{left: 60%;}
+.adamr01{left:58%;}
+.adamch01{left: 62%;}
 .pbala{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;}
 .peng{font-size: 1.5vh;color: rgb(189, 185, 97);z-index: 2;position: absolute;top: 3vh;right: 2vh;font-family: icon;}
 
@@ -100,9 +102,9 @@ p{font-family: icon;}
 .butmor{width: 55%;height: 7.2vh;border: 0.5vh solid rgb(189, 185, 97);position: absolute;top: 61vh;z-index: 3;left: 22.5%;border-radius: 2%;}
 
 .psing{color: white;font-size: 2vh;font-weight: bolder;z-index: 3;position: absolute;top: 1.9vh;left: 35%;font-weight: bolder;font-family: servic;}
-.padresen{z-index: 2;color: white;font-size: 2em;position: absolute;top: 74vh;left: 32%;}
-.pnumber{z-index: 2;color: white;font-size: 2em;position: absolute;top: 81vh;left: 39%;}
-.social1{position: absolute;top: 89.5vh;font-size: 3em;color: #ffffff;z-index: 3;}
+.padresen{z-index: 2;color: white;font-size: 12.2px;position: absolute;top: 74vh;left: 32%;}
+.pnumber{z-index: 2;color: white;font-size:12.2px;position: absolute;top: 81vh;left: 39%;}
+.social1{position: absolute;top: 89.5vh;font-size: 18.3px;color: #ffffff;z-index: 3;}
 .telegram1{left: 37%;}
 .insta1{left: 48%;}
 .face1{left: 59%;}
@@ -110,19 +112,19 @@ p{font-family: icon;}
 .pass2{background-color: #ffffff;width: 100%;height: 120vh;z-index:1;position: absolute;top: 96vh;}
 
 .aab{position: absolute;top: 85vh;width: 100%;z-index: 2;}
-.MICROSCALP2{position: absolute;top: 114vh;font-size: 5em;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
+.MICROSCALP2{position: absolute;top: 114vh;font-size: 31px;z-index: 3;font-weight: bolder;left: 25%;font-family: servic;color: rgb(35, 31, 32);}
 
 .fasledelete{position: absolute;top: 197vh;left: 25%;height: 5vh;width: 5%;z-index: 7;}
 
 .khatbozorg{z-index: 2;width: 42%;height: auto;position: absolute;top: 130vh;left: 55%;}
 .star{z-index: 2;position: absolute;top: 129vh;font-size: 2vh;}
-.whatmicro{position: absolute;font-size: 2.9em;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 129vh;left: 6%;}
+.whatmicro{position: absolute;font-size: 17.7px;z-index: 2;font-weight: bolder;font-family: servic;color: rgb(35, 31, 32);top: 129vh;left: 6%;}
 .star2{top: 149vh;}
-.whatisjav{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 135vh;position: absolute;left: 6%;}
+.whatisjav{font-size:  14.69px;z-index: 2;color: rgb(35, 31, 32);top: 135vh;position: absolute;left: 6%;}
 .khatbozorg2{top: 150vh;}
 .repetq{top: 149vh;}
-.repeatq{font-size: 2.4em;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;left: 6%;}
-.javab1repeat{font-size: 2.4em;z-index: 2;color: rgb(35, 31, 32);top: 160vh;position: absolute;left: 6%;}
+.repeatq{font-size:  14.6px;z-index: 2;font-family: servic;color: rgb(35, 31, 32);top: 156vh;position: absolute;left: 6%;}
+.javab1repeat{font-size: 14.6px;z-index: 2;color: rgb(35, 31, 32);top: 160vh;position: absolute;left: 6%;}
 .repeatq2{top: 174vh;}
 .javab2repeat{top: 178vh;}
 .repeatq3{top: 187vh;}
@@ -138,7 +140,7 @@ p{font-family: icon;}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
 .khatsefiidmate{width: 0.4%;height: 10vh;position:absolute;top: 236vh;left: 49.8%;z-index: 1;background-color: #ffffff;border-radius: 25%;}
 .MATERIAL{top: 238vh;left: 33%;color: rgb(255, 255, 255);}
-.rangpeak{z-index: 2;position: absolute;top: 245vh;left: 31%;height: auto;width: 38%;
+.rangpeak{z-index: 2;position: absolute;top: 247vh;left: 11.5%;height: auto;width: 78%;
 }
 .circlematerialch{z-index: 1;width: 9.5vh;height: 9.5vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 288vh;justify-content: center;}
 .feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.8vh;}
@@ -146,19 +148,28 @@ p{font-family: icon;}
 .feleshmaterialr{left: 13%;transform: rotate(180deg);}
 .organicmaterial{top: 295vh;left: 27%;color: rgb(255, 255, 255);}
 .organicmaterialcolor{top: 300vh;left: 39%;color: rgb(255, 255, 255);}
+.nanomaterial{top: 298vh;left: 18%;}
+.disposable{top: 303vh;left: 11%;}
+.machine{left: 35%;}
+
 .rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
 .rangpeaknevo{left: 50%;top: 254vh;}
 .tozihrangm{color: rgb(255, 255, 255);top: 308vh;left: 8%;right: 8%;}
-.soozanpeak{z-index: 2;position: absolute;top: 245vh;left: 26%;height: auto;width: 48%;}
+.tozihsoozan{top: 315vh;}
+.tozihmachin{top: 303vh;}
+.soozanpeak{z-index: 2;position: absolute;top: 247vh;left: 15%;height: auto;width: 70%;}
+.dastgahpeak{z-index: 2;position: absolute;top: 247vh;left: 23.5%;height: auto;width: 53%;}
 .butmor2{top: 325vh;}
 .morabmaterial1{top: 342vh;width: 0.7vh;left: 30%;height: 0.7vh;}
 .morabmaterial2{top: 342vh;width: 0.7vh;left: 50%;height: 0.7vh;}
 .morabmaterial3{top: 342vh;width: 0.7vh;left: 70%;height: 0.7vh;}
 .aksinstamaterial{z-index:1;width:13.5%;height: auto;position: absolute;top: 352vh;left: 43.25%;}
+.pmovetins{font-size: 14.6px;position: absolute;top: 362vh;left: 35%;color: rgb(255, 255, 255);border-bottom: 2px solid #ffffff;z-index: 2;}
+.aksdins{position: absolute;top: 367.3vh;left: 10%;width: 80%;height: auto;z-index: 2;}
 .khatarminsta{width: 38%;height: 0.3vh;z-index: 2;position: absolute;top: 353.2vh;background-color: rgb(97, 94, 51);left: 2.5%;}
 .khatarminsta2{left: 59.5%;}
-.nevinstamaterial{font-size: 2.4em;color: rgb(191, 188, 80);top: 356vh;position: absolute;left: 40%;}
-.masalaaksay{width: 100%;height: 50%;position: absolute;top: 362vh;background-color: rgb(35, 31, 32);z-index: 12;}
+.nevinstamaterial{font-size: 14.6px;color: rgb(191, 188, 80);top: 356vh;position: absolute;left: 40%;}
+.masalaaksay{width: 100%;height: 50%;position: absolute;top: 362vh;;z-index: 1;}
 .feleshmaterial-paiin{z-index: 2;width: auto;height: 9vh;position: absolute;top: 415vh;left: 48%;}
 .charkh-paiin{z-index: 1;position:absolute;top: 419.5vh;width: 100%;height: auto;}
 .akszeirfelmat{z-index: 2;position: absolute;top: 429vh;width: 100%;height: auto;}
@@ -168,11 +179,11 @@ p{font-family: icon;}
 .editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;
     border-top-left-radius: 19%;}
 .editpass42{width: 50%;left: 0;
-border-top-right-radius: 19%;    border-top-left-radius: 0%;}
+border-top-right-radius: 19%;border-top-left-radius: 0%;}
 .navarabout{background-color: rgb(35, 31, 32);width: 100%;height: 6.5vh;position: absolute;top: 485.5vh;z-index: 3;}
 .pnavaboutus{top: 1vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
 .akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
-.peducation{position: absolute;top: 495vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
+.peducation{position: absolute;top: 495vh;font-size: 14.6px;font-weight: bolder;left: 42%;z-index: 1;}
 .madarekavalm1{position: absolute;top: 500vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
 .madarekavalk1{position: absolute;top: 500vh;width: 50%;height: auto;left: 25%;}
 
@@ -183,16 +194,16 @@ border-top-right-radius: 19%;    border-top-left-radius: 0%;}
 .pmadraksevom{top: 587vh;font-weight: bolder;left: 20%}
 .madarekavalm4{top: 590vh;transform: rotate(0deg);}
 .pmadrakchar{top: 612vh;font-weight: bolder;left: 36%}
-.ghotbnamad{position: absolute;top: 612vh;width: 45%;height: auto;left:27.5%;}
+.ghotbnamad{position: absolute;top: 617vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
 
 .pmadrakavalmast{top: 524vh;left: 27.5%;}
 .pmadrakaval2022{top: 527vh;left: 42.5%;}
 
-.pcontact{top: 637vh;left: 32%;}
-.shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
-.social2{position: absolute;top: 660vh;font-size: 3vh;color: #231f20;}
-.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 37%;position: absolute;}
+.pcontact{top: 642vh;left: 32%;}
+.shomarecont{top: 652vh;left: 25%;position: absolute;font-size: 30.6px;font-weight: bolder;color: rgb(35, 31, 32);}
+.social2{position: absolute;top: 663vh;font-size:18.3px;color: #231f20;}
+.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 667.5vh;left: 37%;position: absolute;}
 .khatzirsocial21{left: 48%;}
 .khatzirsocial22{left: 59%;}
 .map{position: absolute;top: 672vh;width: 100%;height: auto;}
@@ -200,7 +211,21 @@ border-top-right-radius: 19%;    border-top-left-radius: 0%;}
 .zarbdarcont12{transform: rotate(-45deg);}
 .maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
 .khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
-
+.targetElementdas{width: 80%;height: 37vh;left: 10%;position: absolute;top: 247vh;z-index: 99;}
+.colorgtz{
+    animation-name: colorgtz;background-color: #bdb94f;
+}    @keyframes colorgtz
+{
+    0%{background-color: rgb(97, 94, 51);}
+    100%{background-color: #bdb94f;}
+}
+.colorztg{
+    animation-name: colorztg;
+}    @keyframes colorztg
+{
+    0%{background-color: #bdb94f}
+    100%{background-color: rgb(97, 94, 51);}
+}
 .moveleft-left{
     overflow-x: hidden;
     animation-name: moveleft-left;
@@ -211,20 +236,238 @@ border-top-right-radius: 19%;    border-top-left-radius: 0%;}
 
     @keyframes moveleft-left
 {
-    0%{left: 55%;top: 255vh;width: 40%;}
-    100%{left: 26%;top: 245vh;width: 48%;}
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left: 15%;top: 247vh;width: 70%;opacity: 1;}
+}
+.moveleft-left-nano{
+    overflow-x: hidden;
+    animation-name: moveleft-left-nano;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;    white-space: pre; 
+    animation-delay:0s;}
+
+    @keyframes moveleft-left-nano
+{
+    0%{        transform: translateX(7%);color: rgb(35, 31, 32);}
+    100%{        transform: translateX(0);color: rgb(255, 255, 255);}
+}
+
+.moveleft-left-tozisoz{
+    overflow-x: hidden;
+    animation-name: move-left-tozisoz;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+
+    @keyframes move-left-tozisoz
+{
+    0%{left: 15%;color: rgb(35, 31, 32);right: 1%;}
+    100%{left: 8%;color: rgb(255, 255, 255);right: 8%;}
+}
+
+.moveleft-left2{
+    overflow-x: hidden;
+    animation-name: moveleft-left2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+
+    @keyframes moveleft-left2
+{
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left: 23.5%;top: 247vh;width: 53%;;opacity: 1;}
+}
+.moveleft-left3{
+    overflow-x: hidden;
+    animation-name: moveleft-left3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+
+    @keyframes moveleft-left3
+{
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left:11.5%;top: 247vh;width: 78%;;opacity: 1;}
 }
 @keyframes moveleft
 {
-    0%{left: 31%;opacity: 1;}
+    0%{left: 14%;opacity: 1;}
     100%{left: 5%;opacity: 0;}
 }
+
 .move-left{animation-name: moveleft;
     animation-duration: 0.41s;
     animation-iteration-count: 1;
     animation-timing-function: inherit;
     animation-delay:0s;}
+
+    .move-left-organ{
+        overflow-x: hidden;
+        animation-name: move-left-organ;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
     
+        @keyframes move-left-organ
+    {
+        0%{left: 27%;color: rgb(255, 255, 255);}
+        100%{left:20%;color: rgb(35, 31, 32);}
+    }
+    .move-left-organ2{
+        overflow-x: hidden;
+        animation-name: move-left-organ2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-organ2
+    {
+        0%{left: 39%;color: rgb(255, 255, 255);}
+        100%{left:32%;color: rgb(35, 31, 32);}
+    }
+    .move-left-tozir{
+        overflow-x: hidden;
+        animation-name: move-left-tozir;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-tozir
+    {
+        0%{left: 8%;color: rgb(255, 255, 255);right: 8%;}
+        100%{left:1%;color: rgb(35, 31, 32);right: 15%;}
+    }
+    .move-left-nano {
+        animation-name: move-left-nano;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-nano {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(-7%);color: rgb(35, 31, 32);}
+      }
+      .move-left-tozisoz2 {
+        animation-name: move-left-tozisoz2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-tozisoz2 {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(-7%);color: rgb(35, 31, 32);}
+      }
+    .move-right-sr {
+        animation-name: move-right-sr;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+      
+      @keyframes move-right-sr {
+          0% { transform: translateX(0); opacity: 1; }
+          100% { transform: translateX(20vw); opacity: 0; }
+      }
+      .move-right-nano {
+        animation-name: move-right-nano;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-right-nano {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(7%);color: rgb(35, 31, 32);}
+      }
+      .move-right-tozisoz {
+        animation-name: move-right-tozisoz;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-right-tozisoz {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(7%);color: rgb(35, 31, 32);}
+      }
+      .move-left-right{
+        overflow-x: hidden;
+        animation-name: move-left-right;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 78%;top: 247vh;}
+    }
+    .move-left-right-organ {
+        animation-name: move-left-right-organ;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-right-organ {
+          0% {transform: translateX(-7%);color:  rgb(35, 31, 32)}
+          100% {transform: translateX(0%);color: rgb(255, 255, 255);}
+      }
+    .move-left-right2{
+        overflow-x: hidden;
+        animation-name: move-left-right2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right2
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 70%;top: 247vh;}
+    }
+    .move-left-right3{
+        overflow-x: hidden;
+        animation-name: move-left-right3;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right3
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 53%;top: 247vh;}
+    }
+
+
 .animemadarekalav{animation-name: madrakaval;
     animation-duration: 0.41s;
     animation-iteration-count: 1;
@@ -304,36 +547,36 @@ color: rgb(123, 121, 120);}
 
         
 .moveadamch{
-    animation-name: moveadamch;
+    animation-name: moveadamch;left: 60%;
 
 }    @keyframes moveadamch{
-    0%{left: 61.5%;top: 8.7vh;}
-    60%{left: 59%;top: 8.5vh;}
-    100%{left: 59%;top: 8.5vh;}
+    0%{left: 62%;}
+    60%{left: 60%;}
+    100%{left: 60%;}
 }
 .moveadamr{
-    animation-name: moveadamr;
+    animation-name: moveadamr;left: 60%;
 
 }    @keyframes moveadamr{
-    0%{left: 56.1%;top: 7.5vh;}
-    60%{left: 59%;top: 8.5vh;}
-    100%{left: 59%;top:8.5vh;}
+    0%{left: 58%;}
+    60%{left: 60%;}
+    100%{left: 60%;}
 }
 .moveadamchback{
     animation-name: moveadamchback;
 
 }    @keyframes moveadamchback{
-    0%{left: 59%;top: 8.5vh;}
-    60%{left: 61.5%;top:8.7vh;}
-    100%{left: 61.5%;top: 8.7vh;}
+    0%{left: 60%;}
+    60%{left: 62%;}
+    100%{left: 62%;}
 }
 .moveadamrback{
     animation-name: moveadamrback;
 
 }    @keyframes moveadamrback{
-    0%{left: 59%;top:8.5vh;}
-    60%{left: 56.1%;top: 7.5vh;}
-    100%{left: 56.1%;top: 7.5vh;}
+    0%{left: 60%;}
+    60%{left: 58%;}
+    100%{left: 58%;}
 }
 .balamoshghotbv{
     animation-name: balamoshghotbv;
@@ -425,22 +668,6 @@ transform: rotate(45deg);
 
 
 
-        html, body {
-            width: 100%;
-            max-width: 100vw;
-            overflow-x: hidden !important;
-          }
-          img, video, table {
-            max-width: 100% !important;
-            height: auto;
-            display: block;
-          }
-          .wrapper {
-            width: var(--real-vw);
-          }
-          body {
-            -webkit-overflow-scrolling: touch;
-          }
         
         
     
