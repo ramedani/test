@@ -737,26 +737,62 @@ runanime23()
   }
   
   
-  function addBothEvents1(feleshoncr, handler) {
-    feleshoncr.addEventListener('touchend', handler);
-    feleshoncr.addEventListener('click', handler);
+  let isAnimating = false; 
+
+  
+  function addBothEvents(element, handler) {
+    element.removeEventListener('touchend', handler);
+    element.removeEventListener('click', handler);
+  
+    element.addEventListener('touchend', (event) => {
+      event.preventDefault(); 
+      handler(event);
+    });
+    element.addEventListener('click', handler);
   }
   
-  addBothEvents1(feleshoncr, () => {
-    if(k ==1) runanime11();
-    if(k ==2) runanime12();
-    if(k ==3) runanime13();
+  addBothEvents(feleshoncr, () => {
+    if (isAnimating) return; 
+    isAnimating = true;
+  
+
+  
+    if (k === 1) {
+
+      runanime11();
+    } else if (k === 2) {
+      runanime12();
+    } else if (k === 3) {
+      runanime13();
+    }
+  
+
+  
+    setTimeout(() => {
+      isAnimating = false; 
+    }, 1000);
   });
   
-  function addBothEvents2(feleshoncch, handler) {
-    feleshoncch.addEventListener('touchend', handler);
-    feleshoncch.addEventListener('click', handler);
-  }
+  addBothEvents(feleshoncch, () => {
+    if (isAnimating) return;
+    isAnimating = true;
   
-  addBothEvents2(feleshoncr, () => {
-    if(k ==1) runanime21();
-    if(k ==2) runanime22();
-    if(k ==3) runanime23();
+
+  
+    if (k === 1) {
+
+      runanime21();
+    } else if (k === 2) {
+      runanime22();
+    } else if (k === 3) {
+      runanime23();
+    }
+  
+
+  
+    setTimeout(() => {
+      isAnimating = false;
+    }, 1000);
   });
   
 </script>
