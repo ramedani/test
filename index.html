@@ -735,27 +735,21 @@ runanime23()
   }
   
   
-  feleshoncr.addEventListener('touchend', () => {
-    if(k ==1){
-      runanime11()
-    }
-    if(k ==2){
-      runanime12()
-    }
-    if(k ==3){
-      runanime13()
-    }
+  function addBothEvents(element, handler) {
+    element.addEventListener('touchend', handler);
+    element.addEventListener('click', handler);
+  }
+  
+  addBothEvents(feleshoncr, () => {
+    if(k ==1) runanime11();
+    if(k ==2) runanime12();
+    if(k ==3) runanime13();
   });
-  feleshoncch.addEventListener('touchend', () => {
-    if(k ==1){
-      runanime21()
-    }
-    if(k ==2){
-      runanime22()
-    }
-    if(k ==3){
-      runanime23()
-    }
+  
+  addBothEvents(feleshoncch, () => {
+    if(k ==1) runanime21();
+    if(k ==2) runanime22();
+    if(k ==3) runanime23();
   });
 </script>
 </body>
