@@ -297,6 +297,8 @@ const morabmaterial2 = document.getElementById('morabmaterial2')
 const morabmaterial3 = document.getElementById('morabmaterial3')
 
 
+
+
 akssoozan.style.visibility = 'hidden';
 targetElementdas.style.visibility = 'hidden';
 dastgahpeak.style.visibility = 'hidden';
@@ -735,22 +737,28 @@ runanime23()
   }
   
   
-  function addBothEvents(element, handler) {
-    element.addEventListener('touchend', handler);
-    element.addEventListener('click', handler);
+  function addBothEvents1(feleshoncr, handler) {
+    feleshoncr.addEventListener('touchend', handler);
+    feleshoncr.addEventListener('click', handler);
   }
   
-  addBothEvents(feleshoncr, () => {
+  addBothEvents1(feleshoncr, () => {
     if(k ==1) runanime11();
     if(k ==2) runanime12();
     if(k ==3) runanime13();
   });
   
-  addBothEvents(feleshoncch, () => {
+  function addBothEvents2(feleshoncch, handler) {
+    feleshoncch.addEventListener('touchend', handler);
+    feleshoncch.addEventListener('click', handler);
+  }
+  
+  addBothEvents2(feleshoncr, () => {
     if(k ==1) runanime21();
     if(k ==2) runanime22();
     if(k ==3) runanime23();
   });
+  
 </script>
 </body>
 </html>
