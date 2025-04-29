@@ -135,18 +135,25 @@ p{font-family: icon;}
 .tattopenbala{position: absolute;top: 227vh;left: 43.5%;z-index: 2;width: 13%;height: auto;transform: rotate(315deg);}
 .khatsefiidmate{width: 0.4%;height: 10vh;position:absolute;top: 236vh;left: 49.8%;z-index: 1;background-color: #ffffff;border-radius: 25%;}
 .MATERIAL{top: 238vh;left: 33%;color: rgb(255, 255, 255);}
-.rangpeak{z-index: 2;position: absolute;top: 245vh;left: 31%;height: auto;width: 38%;
+.rangpeak{z-index: 2;position: absolute;top: 250vh;left: 10%;height: auto;width: 80%
 }
 .circlematerialch{z-index: 1;width: 9.5vh;height: 9.5vh;border-radius:50%;border: 0.15vh solid rgb(189, 185, 97);;position: absolute;top: 288vh;justify-content: center;}
 .feleshmaterialch{z-index: 1;width: 6.5vh;height: auto;position: absolute;top: 3.8vh;}
 .circlematerialr{right:1%;}
 .feleshmaterialr{left: 13%;transform: rotate(180deg);}
+.feleshoncr{z-index: 12;width: 9.5vh;height: 9.5vh;border-radius:50%;;position: absolute;top: 288vh;}
 .organicmaterial{top: 295vh;left: 27%;color: rgb(255, 255, 255);}
 .organicmaterialcolor{top: 300vh;left: 39%;color: rgb(255, 255, 255);}
-.rangpeakghahve{top: 245vh;width: 28%;z-index: 1;left: 26%;}
-.rangpeaknevo{left: 50%;top: 254vh;}
+.nanomaterial{top: 298vh;left: 18%;}
+.disposable{top: 303vh;left: 11%;}
+
+
+
 .tozihrangm{color: rgb(255, 255, 255);top: 308vh;left: 8%;right: 8%;}
-.soozanpeak{z-index: 2;position: absolute;top: 245vh;left: 26%;height: auto;width: 48%;}
+.tozihsoozan{top: 315vh;}
+.tozihmachin{top: 303vh;}
+.soozanpeak{z-index: 2;position: absolute;top: 250vh;left: 15%;height: auto;width: 70%;}
+.dastgahpeak{z-index: 2;position: absolute;top: 250vh;left: 23.5%;height: auto;width: 53%;}
 .butmor2{top: 325vh;}
 .morabmaterial1{top: 342vh;width: 0.7vh;left: 30%;height: 0.7vh;}
 .morabmaterial2{top: 342vh;width: 0.7vh;left: 50%;height: 0.7vh;}
@@ -155,13 +162,15 @@ p{font-family: icon;}
 .khatarminsta{width: 38%;height: 0.3vh;z-index: 2;position: absolute;top: 353.2vh;background-color: rgb(97, 94, 51);left: 2.5%;}
 .khatarminsta2{left: 59.5%;}
 .nevinstamaterial{font-size: 2.4em;color: rgb(191, 188, 80);top: 356vh;position: absolute;left: 40%;}
-.masalaaksay{width: 100%;height: 50%;position: absolute;top: 362vh;background-color: rgb(35, 31, 32);z-index: 12;}
+.pmovetins{font-size: 2.4em;position: absolute;top: 362vh;left: 35%;color: rgb(255, 255, 255);border-bottom: 2px solid #ffffff;z-index: 2;}
+.aksdins{position: absolute;top: 367.3vh;left: 10%;width: 80%;height: auto;z-index: 2;}
+.masalaaksay{width: 100%;height: 50%;position: absolute;top: 362vh;background-color: rgb(35, 31, 32);z-index: 1;}
 .feleshmaterial-paiin{z-index: 2;width: auto;height: 9vh;position: absolute;top: 415vh;left: 48%;}
 .charkh-paiin{z-index: 1;position:absolute;top: 419.5vh;width: 100%;height: auto;}
 .akszeirfelmat{z-index: 2;position: absolute;top: 429vh;width: 100%;height: auto;}
 .graydelete{width: 100%;height: 8vh;z-index: 1;background-color: rgb(192, 192, 192);position: absolute;top: 469vh;background-color: black;}
 
-.pass4{background-color: #ffffff;width: 100%;height: 250vh;position: absolute;top: 480vh;}
+.pass4{background-color: #ffffff;width: 100%;height: 250vh;position: absolute;top: 490vh;}
 .editpass41{background-color: rgb(255, 255, 255);width: 49.9%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 49.9%;transform: rotate(-2deg);
     border-top-left-radius: 19%;}
 .editpass42{background-color: rgb(255, 255, 255);width: 50%;height: 10vh;position: absolute;top: 475vh;z-index: 2;left: 0;
@@ -170,34 +179,49 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 .pnavaboutus{top: 2vh;z-index: 3;left: 32%;color: rgb(255, 255, 255);}
 .akstabloaboutus{position: absolute;top: 492vh;width: 40%;height: auto;left: 30%;}
 .peducation{position: absolute;top: 494.5vh;font-size: 2.4em;font-weight: bolder;left: 42%;z-index: 1;}
-.madarekavalm1{position: absolute;top: 503vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
+.madarekavalm1{position: absolute;top: 500vh;width: 30%;height: auto;left: 35%;transform: rotate(270deg);}
 .madarekavalk1{position: absolute;top: 503vh;width: 50%;height: auto;left: 25%;}
 
 .pmadrakaval{top: 521vh;font-weight: bolder;left: 18%}
-.madarekavalm2{top: 529vh;}
-.pmadrakdovom{top: 547vh;font-weight: bolder;left: 18%}
-.madarekavalm3{top: 556vh;transform: rotate(0deg);}
-.pmadraksevom{top: 575vh;font-weight: bolder;left: 20%}
-.madarekavalm4{top: 582vh;transform: rotate(0deg);}
-.pmadrakchar{top: 602vh;font-weight: bolder;left: 36%}
-.ghotbnamad{position: absolute;top: 612vh;width: 45%;height: auto;left:27.5%;}
+.madarekavalm2{top: 530vh;}
+.pmadrakdovom{top: 551vh;font-weight: bolder;left: 18%}
+.madarekavalm3{top: 563vh;transform: rotate(0deg);}
+.pmadraksevom{top: 587vh;font-weight: bolder;left: 20%}
+.madarekavalm4{top: 593vh;transform: rotate(0deg);}
+.pmadrakchar{top: 616vh;font-weight: bolder;left: 36%}
+.ghotbnamad{position: absolute;top: 622vh;width: 45%;height: auto;left:27.5%;}
 .ghotbnamav{left:27.5%;}
 
 .pmadrakavalmast{top: 524vh;left: 27.5%;}
 .pmadrakaval2022{top: 527vh;left: 42.5%;}
 
-.pcontact{top: 637vh;left: 32%;}
-.shomarecont{top: 647vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
-.social2{position: absolute;top: 660vh;font-size: 3vh;color: #231f20;}
-.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 664.5vh;left: 37%;position: absolute;}
+.pcontact{top: 647vh;left: 32%;}
+.shomarecont{top: 657vh;left: 25%;position: absolute;font-size: 5em;font-weight: bolder;color: rgb(35, 31, 32);}
+.social2{position: absolute;top: 670vh;font-size: 3vh;color: #231f20;}
+.khatzirsocial2{background-color: rgb(241, 240, 218);width: 6%;height: 0.2vh;top: 674.5vh;left: 37%;position: absolute;}
 .khatzirsocial21{left: 48%;}
 .khatzirsocial22{left: 59%;}
-.map{position: absolute;top: 672vh;width: 100%;height: auto;}
-.zarbdarcont11{position: absolute;top: 690vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
+.map{position: absolute;top: 682vh;width: 100%;height: auto;}
+.zarbdarcont11{position: absolute;top: 700vh;left: 55%;background-color: #bdb94f;width: 5%;height: 0.5vh;transform: rotate(45deg);}
 .zarbdarcont12{transform: rotate(-45deg);}
-.maplogo{position: absolute;top: 715vh;width: 11%;height: auto;left: 44.5%;}
-.khatzirmap{top: 721.3vh;left: 44.75%;width: 10.5%;}
-
+.maplogo{position: absolute;top: 725vh;width: 11%;height: auto;left: 44.5%;}
+.khatzirmap{top: 731.3vh;left: 44.75%;width: 10.5%;}
+.targetElementdas{width: 80%;height: 37vh;left: 10%;position: absolute;top: 247vh;z-index: 99;}
+.whoisdev{position: absolute;top: 738vh;left: 5%;font-size: 1.4em;}
+.colorgtz{
+    animation-name: colorgtz;background-color: #bdb94f;
+}    @keyframes colorgtz
+{
+    0%{background-color: rgb(97, 94, 51);}
+    100%{background-color: #bdb94f;}
+}
+.colorztg{
+    animation-name: colorztg;
+}    @keyframes colorztg
+{
+    0%{background-color: #bdb94f}
+    100%{background-color: rgb(97, 94, 51);}
+}
 .moveleft-left{
     overflow-x: hidden;
     animation-name: moveleft-left;
@@ -208,30 +232,270 @@ border-top-right-radius: 19%;transform: rotate(2deg);}
 
     @keyframes moveleft-left
 {
-    0%{left: 55%;top: 255vh;width: 40%;}
-    100%{left: 26%;top: 245vh;width: 48%;}
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left: 15%;top: 250vh;width: 70%;opacity: 1;}
+}
+.moveleft-left-nano{
+    overflow-x: hidden;
+    animation-name: moveleft-left-nano;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;    white-space: pre; 
+    animation-delay:0s;}
+
+    @keyframes moveleft-left-nano
+{
+    0%{        transform: translateX(7%);color: rgb(35, 31, 32);}
+    100%{        transform: translateX(0);color: rgb(255, 255, 255);}
+}
+
+.moveleft-left-tozisoz{
+    position: absolute;
+    left: 8%;
+    top: 315vh; /* مستند به صفحه شما */
+    animation-name: move-left-tozisoz;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes move-left-tozisoz {
+    0% { transform: translateX(7vw); color: rgb(35, 31, 32);}
+    100% { transform: translateX(0); color: rgb(255, 255, 255);}
+}
+.moveleft-left-tozimash{
+    position: absolute;
+    left: 8%;
+    top: 303vh; /* مستند به صفحه شما */
+    animation-name: moveleft-left-tozimash;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes moveleft-left-tozimash {
+    0% { transform: translateX(7vw); color: rgb(35, 31, 32);}
+    100% { transform: translateX(0); color: rgb(255, 255, 255);}
+}
+.moveleft-left-tozirang{
+    position: absolute;
+    left: 8%;
+    top: 308vh; /* مستند به صفحه شما */
+    animation-name: moveleft-left-tozirang;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes moveleft-left-tozirang {
+    0% { transform: translateX(7vw); color: rgb(35, 31, 32);}
+    100% { transform: translateX(0); color: rgb(255, 255, 255);}
+}
+.moveleft-left2{
+    overflow-x: hidden;
+    animation-name: moveleft-left2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+
+    @keyframes moveleft-left2
+{
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left: 23.5%;top: 250vh;width: 53%;;opacity: 1;}
+}
+.moveleft-left3{
+    overflow-x: hidden;
+    animation-name: moveleft-left3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: inherit;
+    animation-delay:0s;}
+
+    @keyframes moveleft-left3
+{
+    0%{left: 55%;top: 255vh;width: 40%;opacity: 0;}
+    100%{left:10%;top: 250vh;width: 80%;;opacity: 1;}
 }
 @keyframes moveleft
 {
-    0%{left: 31%;opacity: 1;}
+    0%{left: 14%;opacity: 1;}
     100%{left: 5%;opacity: 0;}
 }
+
 .move-left{animation-name: moveleft;
     animation-duration: 0.41s;
     animation-iteration-count: 1;
     animation-timing-function: inherit;
     animation-delay:0s;}
+
+    .move-left-organ{
+        overflow-x: hidden;
+        animation-name: move-left-organ;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
     
-.animemadarekalav{animation-name: madrakaval;
-    animation-duration: 0.41s;
-    animation-iteration-count: 1;
-    animation-timing-function: inherit;
-    animation-delay:0s;}
-    @keyframes madrakaval
-{
-    0%{width: 30%;left: 35%;top: 509vh;}
-    100%{width:13%;left:55%;top: 516vh;}
-}
+        @keyframes move-left-organ
+    {
+        0%{left: 27%;color: rgb(255, 255, 255);}
+        100%{left:20%;color: rgb(35, 31, 32);}
+    }
+    .move-left-organ2{
+        overflow-x: hidden;
+        animation-name: move-left-organ2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-organ2
+    {
+        0%{left: 39%;color: rgb(255, 255, 255);}
+        100%{left:32%;color: rgb(35, 31, 32);}
+    }
+    .move-left-tozir {
+        animation-name: move-left-tozir;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay: 0s;
+
+        transform: translateX(0%); /* موقعیت اولیه */
+        transition: transform 0.5s ease-in-out;  /* برای حالت ثابت */
+    }
+    
+    @keyframes move-left-tozir {
+        0% {
+            transform: translateX(0%);
+            color: rgb(255, 255, 255);
+        }
+        100% {
+            transform: translateX(-7%);
+            color: rgb(35, 31, 32);
+        }
+    }
+    .move-left-nano {
+        animation-name: move-left-nano;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-nano {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(-7%);color: rgb(35, 31, 32);}
+      }
+      .move-left-tozisoz2 {
+        animation-name: move-left-tozisoz2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-tozisoz2 {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(-7%);color: rgb(35, 31, 32);}
+      }
+    .move-right-sr {
+        animation-name: move-right-sr;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+      
+      @keyframes move-right-sr {
+          0% { transform: translateX(0); opacity: 1; }
+          100% { transform: translateX(20vw); opacity: 0; }
+      }
+      .move-right-nano {
+        animation-name: move-right-nano;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-right-nano {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(7%);color: rgb(35, 31, 32);}
+      }
+      .move-right-tozisoz {
+        animation-name: move-right-tozisoz;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-right-tozisoz {
+          0% {transform: translateX(0);color: rgb(255, 255, 255)}
+          100% {transform: translateX(7%);color: rgb(35, 31, 32);}
+      }
+      .move-left-right{
+        overflow-x: hidden;
+        animation-name: move-left-right;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 80%;top: 250vh;}
+    }
+    .move-left-right-organ {
+        animation-name: move-left-right-organ;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        position: absolute;
+
+      }
+
+      
+      @keyframes move-left-right-organ {
+          0% {transform: translateX(-7%);color:  rgb(35, 31, 32)}
+          100% {transform: translateX(0%);color: rgb(255, 255, 255);}
+      }
+    .move-left-right2{
+        overflow-x: hidden;
+        animation-name: move-left-right2;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right2
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 70%;top: 250vh;}
+    }
+    .move-left-right3{
+        overflow-x: hidden;
+        animation-name: move-left-right3;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: inherit;
+        animation-delay:0s;}
+    
+        @keyframes move-left-right3
+    {
+        0%{  opacity: 0; transform: translateX(-20vw);width: 42%;top: 255vh;}
+        100%{opacity: 1; transform: translateX(0vw);width: 53%;top: 250vh;}
+    }
+
 
 @keyframes morabj
 {
