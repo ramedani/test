@@ -135,7 +135,7 @@ else if (closestNumber == 1.579591836734694){
           <div id="butmor" class="butmor">
           <p id="psing" class="psing">SING UP</p>
         </div>
-        <p class="padresen">Iran,Sari,Peyvandi streat</p>
+        <p class="padresen">Iran,Sari,streat payvandi</p>
         <p class="pnumber">0911-249-0036</p>
         <a href="https://t.me/Microscalp_sari"><i class="fa-brands fa-telegram telegram1 social1"></i></a>
         <a href="https://www.instagram.com/microscalp_sari/"><i class="fa-brands fa-square-instagram social1 insta1" ></i></a>
@@ -249,7 +249,7 @@ else if (closestNumber == 1.579591836734694){
   <img src="map4.png" class="map">
   <div class="zarbdarcont11"></div>
   <div class="zarbdarcont11 zarbdarcont12"></div>
-  <a href="geo:0,0?q=36.778259,-119.417931" target="_blank"><img src="maplogo.png" class="maplogo"></a>
+  <a href="geo:0,0?q=36.556252,53.066244" target="_blank"><img src="maplogo.png" class="maplogo"></a>
   <div class="khatzirsocial2 khatzirmap"></div>
   <p class="whoisdev">developer: parsa safilian</p>
   <div class="faseledil"></div>
@@ -264,8 +264,8 @@ const body = document.getElementById('body');
 const targetElement = document.getElementById('kolrange');
 const aksrang1 = document.getElementById('aksrang1');
 const akssoozan = document.getElementById('soozanpeak');
-const dastgahpeak = document.getElementById('dastgahpeak')
-const pms = document.getElementById('pms')
+const dastgahpeak = document.getElementById('dastgahpeak');
+const pms = document.getElementById('pms');
 const pmat = document.getElementById('pmat');
 const pabout = document.getElementById('pabout')
 const pcont = document.getElementById('pcont')
@@ -794,7 +794,19 @@ runanime23()
       isAnimating = false;
     }, 1000);
   });
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
   
+  document.querySelectorAll('img, canvas').forEach(el => {
+    el.setAttribute('draggable', false);
+  });
+  
+  document.addEventListener("touchstart", function (e) {
+    if (e.target.tagName === "CANVAS" || e.target.tagName === "IMG") {
+      e.preventDefault(); // مانع از رفتار پیش‌فرض لمس شوید
+    }
+  });
 </script>
 </body>
 </html>
